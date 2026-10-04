@@ -1,0 +1,236 @@
+@import "tailwindcss";
+
+/* ─────────────────────────────────────────────────────────────
+   Cash-4Gold design tokens (Tailwind v4 theme)
+   ───────────────────────────────────────────────────────────── */
+@theme {
+  /* Desktop layouts need ~1200px; tablets and small laptops (768–1199px) get the md layout.
+     Keep in sync with BREAKPOINT_LG in lib/motion.ts. */
+  --breakpoint-lg: 75rem;
+
+  --color-ink: #14120e;
+  --color-body: #4a443a;
+  --color-muted: #5f584b;
+  --color-soft: #6b6456;
+  --color-subtle: #8a8272;
+  --color-faint: #a39b8b;
+
+  --color-cream: #fbf8f2;
+  --color-paper: #fdfbf7;
+  --color-champagne: #f5eee1;
+  --color-champagne-2: #fbf5e8;
+
+  --color-line: #eee8dd;
+  --color-line-2: #e5dbc8;
+  --color-line-3: #e3d6bc;
+  --color-line-strong: #d9cdb5;
+  --color-line-gold: #dccca8;
+
+  --color-gold: #d4a32a;
+  --color-gold-hover: #c8961f;
+  --color-gold-deep: #b08212;
+  --color-gold-ink: #8c6a12;
+  --color-gold-dark: #6e540e;
+  --color-gold-tint: #fbf3df;
+  --color-gold-border: #ead9ae;
+  --color-gold-ring: #e6d3a4;
+
+  --color-up: #2f7d55;
+  --color-up-dot: #2f9e62;
+  --color-up-bg: #f1f7f3;
+  --color-down: #b4493a;
+
+  --font-display: var(--font-bodoni), "Didot", "Bodoni 72", Georgia, serif;
+  --font-sans: var(--font-instrument), "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+  --shadow-gold: 0 10px 26px rgba(212, 163, 42, 0.3);
+  --shadow-gold-lg: 0 16px 34px rgba(212, 163, 42, 0.38);
+  --shadow-card: 0 14px 34px rgba(60, 45, 15, 0.1);
+  --shadow-soft: 0 24px 60px rgba(60, 45, 15, 0.08);
+  --shadow-float: 0 30px 60px rgba(60, 45, 15, 0.16);
+  --shadow-widget: 0 50px 100px rgba(60, 45, 15, 0.12);
+
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out-soft: cubic-bezier(0.65, 0, 0.35, 1);
+
+  --animate-live-pulse: live-pulse 2s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+
+  @keyframes live-pulse {
+    0% {
+      transform: scale(1);
+      opacity: 0.35;
+    }
+    100% {
+      transform: scale(2.2);
+      opacity: 0;
+    }
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────
+   Base
+   ───────────────────────────────────────────────────────────── */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background: #ffffff;
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background: var(--color-gold-tint);
+    color: var(--color-ink);
+  }
+
+  a,
+  button,
+  input,
+  textarea,
+  [tabindex] {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-gold);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: var(--color-faint);
+  }
+
+  [id] {
+    scroll-margin-top: 80px;
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────
+   Utilities
+   ───────────────────────────────────────────────────────────── */
+@utility container-site {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 20px;
+  @media (width >= 48rem) {
+    padding-inline: 40px;
+  }
+}
+
+@utility section-y {
+  padding-block: 64px;
+  @media (width >= 48rem) {
+    padding-block: 88px;
+  }
+  @media (width >= 75rem) {
+    padding-block: 104px;
+  }
+}
+
+@utility text-balance-safe {
+  text-wrap: balance;
+}
+
+/* Range slider (weight) */
+.c4g-range {
+  --fill: 0%;
+  appearance: none;
+  height: 24px;
+  background: transparent;
+  cursor: pointer;
+}
+.c4g-range::-webkit-slider-runnable-track {
+  height: 4px;
+  border-radius: 4px;
+  background: linear-gradient(to right, var(--color-gold) var(--fill), #f1eadc var(--fill));
+}
+.c4g-range::-moz-range-track {
+  height: 4px;
+  border-radius: 4px;
+  background: #f1eadc;
+}
+.c4g-range::-moz-range-progress {
+  height: 4px;
+  border-radius: 4px;
+  background: var(--color-gold);
+}
+.c4g-range::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  margin-top: -8px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid var(--color-gold);
+  box-shadow: 0 2px 6px rgba(60, 45, 15, 0.2);
+  transition: transform 0.2s var(--ease-out-soft);
+}
+.c4g-range::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid var(--color-gold);
+  box-shadow: 0 2px 6px rgba(60, 45, 15, 0.2);
+}
+.c4g-range:hover::-webkit-slider-thumb {
+  transform: scale(1.1);
+}
+.c4g-range:focus-visible {
+  outline: none;
+}
+.c4g-range:focus-visible::-webkit-slider-thumb {
+  box-shadow: 0 0 0 4px rgba(212, 163, 42, 0.3);
+}
+
+/* ─────────────────────────────────────────────────────────────
+   Motion pre-states (only when JavaScript runs — see app/layout.tsx).
+   A 3 s CSS failsafe guarantees visibility if a timeline never runs.
+   ───────────────────────────────────────────────────────────── */
+@keyframes c4g-failsafe {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .js [data-hero-fade] {
+    opacity: 0;
+    animation: c4g-failsafe 0.01s linear 3s forwards;
+  }
+  .js [data-hero-line] {
+    transform: translateY(105%);
+    animation: c4g-failsafe 0.01s linear 3s forwards;
+  }
+  .js [data-line-x] {
+    transform: scaleX(0);
+  }
+  .js [data-line-y] {
+    transform: scaleY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
