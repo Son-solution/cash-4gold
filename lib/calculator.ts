@@ -1,4 +1,4 @@
-import { getFinePurchasePrice, getMetal, getPurity } from "@/lib/metals";
+import { getFinePurchasePrice, getMetal, getPurchasePricePerGram, getPurity } from "@/lib/metals";
 import type { MarketSnapshot, MetalId } from "@/types/metal";
 
 export interface CalculatorInput {
@@ -48,7 +48,8 @@ export function sanitizeInput(input: CalculatorInput): CalculatorInput {
 
 /**
  * Estimated purchase value:
- *   market price (EUR/g pure) × payout factor × purity factor × weight × pieces
+ *   purchase price per gram of this purity × weight × pieces
+ * (the published price if the source lists this purity, else market price × payout factor × purity factor)
  */
 export function calculateEstimate(input: CalculatorInput, snapshot: MarketSnapshot): CalculatorResult {
   const safe = sanitizeInput(input);
@@ -56,7 +57,7 @@ export function calculateEstimate(input: CalculatorInput, snapshot: MarketSnapsh
   const purity = getPurity(metal, safe.purity);
   const finePricePerGram = getFinePurchasePrice(snapshot, metal);
   const purityFactor = purity.fineness / 1000;
-  const pricePerGram = finePricePerGram * purityFactor;
+  const pricePerGram = getPurchasePricePerGram(snapshot, metal, purity);
   const totalWeight = safe.weight * safe.pieces;
   const fineWeight = totalWeight * purityFactor;
   const total = roundCents(pricePerGram * totalWeight);

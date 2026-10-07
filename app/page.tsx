@@ -14,8 +14,8 @@ import { Trust } from "@/components/sections/Trust";
 import { StructuredData } from "@/components/seo/StructuredData";
 import { getMarketSnapshot } from "@/lib/market/provider";
 
-/** Re-generate the page (with fresh prices for the first paint) every 5 minutes. */
-export const revalidate = 300;
+/** Re-generate the page (with fresh prices for the first paint) every minute. */
+export const revalidate = 60;
 
 export default async function HomePage() {
   const snapshot = await getMarketSnapshot();

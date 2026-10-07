@@ -54,6 +54,17 @@ export interface PriceHistory {
   labels: string[];
 }
 
+/** A buyer's published purchase price for one purity. */
+export interface PurchasePrice {
+  /** EUR per gram of material with this purity. */
+  price: number;
+  /** Change in percent as published by the source. */
+  changePercent: number;
+}
+
+/** Purchase prices per metal and purity id (e.g. purchasePrices.gold["585"]). */
+export type PurchasePriceTable = Partial<Record<MetalId, Record<string, PurchasePrice>>>;
+
 export interface MarketSnapshot {
   /** ISO timestamp of the quotes. */
   updatedAt: string;
@@ -65,6 +76,11 @@ export interface MarketSnapshot {
   isMock: boolean;
   quotes: Record<SpotKey, SpotQuote>;
   history: Record<SpotKey, Record<ChartPeriod, PriceHistory>>;
+  /**
+   * Optional: ready-made purchase prices per purity (e.g. scraped from gold-sohn.de).
+   * When present they are shown as-is instead of market price × payout factor × purity.
+   */
+  purchasePrices?: PurchasePriceTable;
 }
 
 export type MarketStatus = "live" | "updating" | "stale" | "error";

@@ -33,8 +33,8 @@ export function LivePrices() {
   const prevPrice = previous ? getPurchasePricePerGram(previous, metal, reference) : null;
   const direction = prevPrice === null || prevPrice === mainPrice ? 0 : mainPrice > prevPrice ? 1 : -1;
   const history = snapshot.history[metal.spotKey][period];
-  const payout = metal.payoutFactor;
-  const factor = payout * (reference.fineness / 1000);
+  // History is in quote units; scale it so the chart ends at the shown purchase price.
+  const factor = quote.pricePerGram > 0 ? mainPrice / quote.pricePerGram : 1;
   const chartValues = history.values.map((v) => v * factor);
 
   return (
