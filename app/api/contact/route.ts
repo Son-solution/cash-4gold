@@ -45,6 +45,7 @@ export async function POST(request: Request) {
     message: clean(body.message, 5000, false),
     categories: Array.isArray(body.categories) ? body.categories.slice(0, 20).map((c) => clean(c, 50)) : [],
     consent: Boolean(body.consent),
+    page: clean(body.page, 200) || "/",
   };
 
   const errors = validateContact(data);
@@ -63,6 +64,7 @@ export async function POST(request: Request) {
   const estimate = body.estimate;
   const lines = [
     "Neue Anfrage über das Formular auf cash-4gold.de",
+    `Seite:     ${data.page}`,
     "",
     `Name:      ${data.name}`,
     `E-Mail:    ${data.email}`,
@@ -89,7 +91,7 @@ export async function POST(request: Request) {
       from: `"Cash 4 Gold Website" <${from}>`,
       to: process.env.CONTACT_TO || from,
       replyTo: { name: data.name, address: data.email },
-      subject: `Neue Anfrage von ${data.name}`,
+      subject: `Neue Anfrage von ${data.name} (${data.page})`,
       text: lines.join("\n"),
     });
   } catch (err) {

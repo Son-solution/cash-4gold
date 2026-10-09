@@ -170,6 +170,7 @@ export function ContactForm() {
       await submitContactRequest({
         ...values,
         categories,
+        page: window.location.pathname,
         estimate:
           offerDraft && estimate
             ? { metal: offerDraft.metal, purity: offerDraft.purity, weight: offerDraft.weight, pieces: offerDraft.pieces, total: estimate.total }

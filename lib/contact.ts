@@ -11,6 +11,8 @@ export interface ContactRequest {
   categories: string[];
   message: string;
   consent: boolean;
+  /** Path of the page the form was sent from, e.g. "/goldankauf-munchen". */
+  page?: string;
   /** Optional data handed over from the calculator. */
   estimate?: {
     metal: string;
