@@ -9,18 +9,18 @@ import { SelectIndicator } from "@/components/ui/SelectIndicator";
 import { FAQ_ITEMS, FAQ_TOPICS } from "@/data/faq";
 import { COMPANY } from "@/data/site";
 import { cn } from "@/lib/utils";
-import type { FaqTopic } from "@/types/common";
+import type { FaqItem, FaqTopic } from "@/types/common";
 
-/** FAQ with topic filter and accessible accordion. Supports deep links (#faq-<id>). */
-export function FAQ() {
+/** FAQ with topic filter and accessible accordion. Supports deep links (#faq-<id>). City pages pass their own items. */
+export function FAQ({ items: allItems = FAQ_ITEMS }: { items?: FaqItem[] }) {
   const [topic, setTopic] = useState<FaqTopic | "alle">("alle");
-  const [openId, setOpenId] = useState<string | null>(FAQ_ITEMS[0].id);
+  const [openId, setOpenId] = useState<string | null>(allItems[0].id);
 
   // Deep link: #faq-versandkosten opens that question (on load and on hash change).
   useEffect(() => {
     const openFromHash = () => {
       const hash = window.location.hash.replace("#faq-", "");
-      if (hash && FAQ_ITEMS.some((f) => f.id === hash)) {
+      if (hash && allItems.some((f) => f.id === hash)) {
         setTopic("alle");
         setOpenId(hash);
         document.getElementById("faq")?.scrollIntoView();
@@ -32,9 +32,9 @@ export function FAQ() {
       window.cancelAnimationFrame(frame);
       window.removeEventListener("hashchange", openFromHash);
     };
-  }, []);
+  }, [allItems]);
 
-  const items = FAQ_ITEMS.filter((f) => topic === "alle" || f.topic === topic);
+  const items = allItems.filter((f) => topic === "alle" || f.topic === topic);
 
   return (
     <section id="faq" aria-labelledby="faq-title" className="section-y bg-white">
@@ -82,7 +82,7 @@ export function FAQ() {
             onToggle={(id) => setOpenId((cur) => (cur === id ? null : id))}
             items={items.map((f) => ({
               id: f.id,
-              number: String(FAQ_ITEMS.indexOf(f) + 1).padStart(2, "0"),
+              number: String(allItems.indexOf(f) + 1).padStart(2, "0"),
               meta: f.topicLabel,
               title: f.question,
               content: <p className="m-0" id={`faq-${f.id}`}>{f.answer}</p>,

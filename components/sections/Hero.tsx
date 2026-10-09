@@ -12,8 +12,20 @@ const FACTS: { icon: IconName; title: string; text: string }[] = [
   { icon: "phone", title: "Telefonisch", text: "Beratung Mo–Fr 8–17 Uhr" },
 ];
 
-/** Hero: server-rendered content, animated by <HeroMotion>. */
-export function Hero() {
+interface HeroProps {
+  /** Three headline lines; the last one is set in gold italic. */
+  title?: [string, string, string];
+  text?: string;
+  /** Small caps label next to the badge (tablet and up). */
+  label?: string;
+}
+
+const DEFAULT_TITLE: [string, string, string] = ["Gold Ankauf", "zum fairen", "Tagespreis."];
+const DEFAULT_TEXT =
+  "Altgold, Schmuck, Münzen, Barren und Zahngold – sowie Silber, Platin und Palladium. Bewertet nach Gewicht, Feingehalt und aktuellem Börsenkurs.";
+
+/** Hero: server-rendered content, animated by <HeroMotion>. City pages pass their own copy. */
+export function Hero({ title = DEFAULT_TITLE, text = DEFAULT_TEXT, label = "Deutschlandweit per Post" }: HeroProps) {
   return (
     <section id="top" aria-labelledby="hero-title" className="relative overflow-hidden bg-white">
       {/* desktop champagne panel + fine rings */}
@@ -32,7 +44,7 @@ export function Hero() {
               <span className="relative inline-flex h-[7px] w-[7px] rounded-full bg-up-dot shadow-[0_0_0_3px_rgba(47,158,98,0.18)]" />
               Ankauf zum Tageskurs
             </span>
-            <span className="hidden font-mono text-[11px] tracking-[0.22em] text-gold-ink md:inline">DEUTSCHLANDWEIT PER POST</span>
+            <span className="hidden font-mono text-[11px] tracking-[0.22em] text-gold-ink md:inline">{label.toUpperCase()}</span>
           </div>
 
           <h1
@@ -41,23 +53,23 @@ export function Hero() {
           >
             <span className="block overflow-hidden pb-[0.06em]">
               <span data-hero-line className="block">
-                Gold Ankauf
+                {title[0]}
               </span>
             </span>
             <span className="block overflow-hidden pb-[0.06em]">
               <span data-hero-line className="block">
-                zum fairen
+                {title[1]}
               </span>
             </span>
             <span className="block overflow-hidden pb-[0.08em]">
               <span data-hero-line className="block italic text-gold-deep">
-                Tagespreis.
+                {title[2]}
               </span>
             </span>
           </h1>
 
           <p data-hero-fade="text" className="mx-auto mt-5 mb-0 max-w-[520px] text-[15.5px] leading-[1.6] text-muted md:mt-6 md:text-[17.5px] lg:mx-0 lg:text-[18px] xl:mt-7 xl:text-[18.5px]">
-            Altgold, Schmuck, Münzen, Barren und Zahngold – sowie Silber, Platin und Palladium. Bewertet nach Gewicht, Feingehalt und aktuellem Börsenkurs.
+            {text}
           </p>
 
           <div className="mt-6 flex flex-col gap-2.5 md:mt-8 md:flex-row md:items-center md:justify-center md:gap-3.5 lg:justify-start xl:mt-10">

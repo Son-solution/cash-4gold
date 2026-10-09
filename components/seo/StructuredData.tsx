@@ -1,8 +1,19 @@
 import { FAQ_ITEMS } from "@/data/faq";
 import { COMPANY } from "@/data/site";
+import type { FaqItem } from "@/types/common";
 
-/** JSON-LD for the business and the FAQ (facts only from the company data). */
-export function StructuredData() {
+interface CityContext {
+  name: string;
+  stateName: string;
+  /** Absolute URL of the city page. */
+  url: string;
+}
+
+/**
+ * JSON-LD for the business and the FAQ (facts only from the company data).
+ * City pages add a Service served in that city and a breadcrumb trail.
+ */
+export function StructuredData({ faqItems = FAQ_ITEMS, city }: { faqItems?: FaqItem[]; city?: CityContext }) {
   const business = {
     "@context": "https://schema.org",
     // Organization (not LocalBusiness): online/mail-in only, no premises with customer traffic.
@@ -41,17 +52,45 @@ export function StructuredData() {
   const faq = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: FAQ_ITEMS.filter((f) => !f.answer.includes("[")).map((f) => ({
+    mainEntity: faqItems.filter((f) => !f.answer.includes("[")).map((f) => ({
       "@type": "Question",
       name: f.question,
       acceptedAnswer: { "@type": "Answer", text: f.answer },
     })),
   };
 
+  const cityGraph = city && [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      serviceType: "Goldankauf",
+      name: `Goldankauf ${city.name}`,
+      url: city.url,
+      provider: { "@type": "Organization", name: COMPANY.name, url: COMPANY.siteUrl },
+      areaServed: {
+        "@type": "City",
+        name: city.name,
+        containedInPlace: { "@type": "State", name: city.stateName },
+      },
+      description: `Online- und Versandankauf von Gold, Silber, Platin und Palladium für ${city.name} – bewertet nach aktuellem Börsenkurs.`,
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Startseite", item: `${COMPANY.siteUrl}/` },
+        { "@type": "ListItem", position: 2, name: `Goldankauf ${city.name}`, item: city.url },
+      ],
+    },
+  ];
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(business) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faq) }} />
+      {cityGraph?.map((entry) => (
+        <script key={entry["@type"]} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(entry) }} />
+      ))}
     </>
   );
 }

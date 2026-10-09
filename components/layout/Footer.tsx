@@ -2,7 +2,51 @@ import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 import { Icon } from "@/components/ui/Icon";
 import { Reveal } from "@/components/ui/Reveal";
+import { cityPath, STATES } from "@/data/cities";
 import { COMPANY, FOOTER_LINKS } from "@/data/site";
+
+const SUMMARY = "flex cursor-pointer list-none items-center justify-between gap-4 [&::-webkit-details-marker]:hidden";
+
+/**
+ * "Städte": collapsible states, each listing its city pages.
+ * Native <details>, so every link is in the HTML for crawlers and it works without JS.
+ */
+function CityLinks() {
+  const total = STATES.reduce((sum, state) => sum + state.cities.length, 0);
+  return (
+    <details className="group/cities mt-10 border-t border-line lg:mt-14">
+      <summary className={`${SUMMARY} min-h-14 py-4`}>
+        <span className="flex items-baseline gap-3">
+          <span className="font-mono text-[10px] tracking-[0.2em] text-gold-ink uppercase md:text-[10.5px]">Städte</span>
+          <span className="text-[12.5px] text-soft">{total} Städte</span>
+        </span>
+        <Icon name="arrow-up" size={16} strokeWidth={1.8} className="rotate-180 transition-transform duration-200 group-open/cities:rotate-0" />
+      </summary>
+      <div className="flex flex-col pb-2">
+        {STATES.map((state) => (
+          <details key={state.id} className="group/state border-t border-line">
+            <summary className={`${SUMMARY} min-h-12 py-3`}>
+              <span className="flex items-baseline gap-3">
+                <span className="font-display text-[19px] md:text-[20px]">{state.name}</span>
+                <span className="text-[12.5px] text-soft">{state.cities.length}</span>
+              </span>
+              <Icon name="arrow-up" size={14} strokeWidth={1.8} className="rotate-180 text-gold-ink transition-transform duration-200 group-open/state:rotate-0" />
+            </summary>
+            <ul className="m-0 grid list-none grid-cols-1 gap-x-6 p-0 pb-4 min-[400px]:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+              {state.cities.map((city) => (
+                <li key={city.slug}>
+                  <a href={cityPath(city)} className="inline-flex min-h-11 items-center text-[14px] text-body transition-colors duration-200 hover:text-gold-ink md:min-h-0 md:py-1.5">
+                    Goldankauf {city.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </details>
+        ))}
+      </div>
+    </details>
+  );
+}
 
 function LinkGroup({ title, links }: { title: string; links: { label: string; href: string }[] }) {
   const id = `footer-${title.toLowerCase().replace(/[^a-z]/g, "")}`;
@@ -86,7 +130,9 @@ export function Footer() {
           </address>
         </div>
 
-        <div className="mt-10 flex flex-col gap-1.5 border-t border-line pt-5 text-[12px] leading-[1.5] text-soft md:flex-row md:justify-between md:gap-5 md:text-[12.5px] lg:mt-14">
+        <CityLinks />
+
+        <div className="flex flex-col gap-1.5 border-t border-line pt-5 text-[12px] leading-[1.5] text-soft md:flex-row md:justify-between md:gap-5 md:text-[12.5px]">
           <span>
             © {new Date().getFullYear()} {COMPANY.name} · Online- & Versandankauf deutschlandweit
           </span>
