@@ -5,12 +5,16 @@ import { BERLIN } from "./berlin";
 import { BRANDENBURG } from "./brandenburg";
 import { BREMEN } from "./bremen";
 import { HAMBURG } from "./hamburg";
+import { HESSEN } from "./hessen";
+import { MECKLENBURG_VORPOMMERN } from "./mecklenburg-vorpommern";
+import { NIEDERSACHSEN } from "./niedersachsen";
+import { NORDRHEIN_WESTFALEN } from "./nordrhein-westfalen";
 
 /**
  * All states shown under "Städte" in the footer, in display order.
  * New state: add a file next to this one and list it here — pages, footer and sitemap follow automatically.
  */
-export const STATES: State[] = [BADEN_WUERTTEMBERG, BAYERN, BERLIN, BRANDENBURG, BREMEN, HAMBURG];
+export const STATES: State[] = [BADEN_WUERTTEMBERG, BAYERN, BERLIN, BRANDENBURG, BREMEN, HAMBURG, HESSEN, MECKLENBURG_VORPOMMERN, NIEDERSACHSEN, NORDRHEIN_WESTFALEN];
 
 export const CITY_PREFIX = "goldankauf-";
 
