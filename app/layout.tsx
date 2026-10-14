@@ -92,7 +92,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           href="#main"
           className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] focus:rounded-full focus:bg-ink focus:px-5 focus:py-3 focus:text-white"
         >
-          Zum Inhalte springen
+          Zum Inhalt springen
         </a>
         <MotionProvider>{children}</MotionProvider>
       </body>
