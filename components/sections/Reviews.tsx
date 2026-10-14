@@ -40,7 +40,7 @@ export function Reviews() {
       <div className="container-site">
         <Reveal stagger={0.06} className="flex flex-col gap-3.5 md:gap-5 lg:flex-row lg:items-end lg:justify-between lg:gap-4">
           <div data-reveal className="flex flex-col gap-3.5 md:gap-4">
-            <Eyebrow number="07" label="Kundenstimmen" />
+            <Eyebrow number="06" label="Kundenstimmen" />
             <SectionTitle id="bewertungen-title">
               Stimmen unserer <Accent>Kunden.</Accent>
             </SectionTitle>

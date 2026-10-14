@@ -19,7 +19,7 @@ export function Contact() {
       <div className="container-site grid grid-cols-1 gap-6 md:gap-7 lg:grid-cols-[minmax(0,1fr)_600px] lg:items-start lg:gap-[72px]">
         <div className="flex flex-col gap-4 md:gap-[18px]">
           <Reveal>
-            <Eyebrow number="09" label="Kontakt & Angebot" />
+            <Eyebrow number="08" label="Kontakt & Angebot" />
           </Reveal>
           <MaskedLines
             id="kontakt-title"

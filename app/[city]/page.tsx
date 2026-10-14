@@ -13,7 +13,6 @@ import { LivePrices } from "@/components/sections/LivePrices";
 import { MetalCalculator } from "@/components/sections/MetalCalculator";
 import { Reviews } from "@/components/sections/Reviews";
 import { Services } from "@/components/sections/Services";
-import { Trust } from "@/components/sections/Trust";
 import { StructuredData } from "@/components/seo/StructuredData";
 import { allCities, CITY_PREFIX, cityPath, findCity } from "@/data/cities";
 import { FAQ_ITEMS } from "@/data/faq";
@@ -93,7 +92,6 @@ export default async function CityPage({ params }: Props) {
           <MetalCalculator />
           <Services />
           <HowItWorks />
-          <Trust />
           <Reviews />
           <FAQ items={faqItems} />
           <Contact />

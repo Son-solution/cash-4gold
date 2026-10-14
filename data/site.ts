@@ -25,7 +25,6 @@ export const MAIN_NAV: NavItem[] = [
   { label: "Edelmetalle", href: "#ankauf" },
   { label: "Aktuelle Preise", href: "#preise", sectionId: "preise" },
   { label: "So funktioniert's", href: "#ablauf", sectionId: "ablauf" },
-  { label: "Über uns", href: "#ueber", sectionId: "ueber" },
   { label: "FAQ", href: "#faq", sectionId: "faq" },
   { label: "Kontakt", href: "#kontakt", sectionId: "kontakt" },
 ];
@@ -62,7 +61,6 @@ export const TRUST_FACTS = [
 
 export const FOOTER_LINKS = {
   unternehmen: [
-    { label: "Über uns", href: "#ueber" },
     { label: "So funktioniert's", href: "#ablauf" },
     { label: "Aktuelle Preise", href: "#preise" },
     { label: "Wertrechner", href: "#rechner" },

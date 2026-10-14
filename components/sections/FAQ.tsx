@@ -41,7 +41,7 @@ export function FAQ({ items: allItems = FAQ_ITEMS }: { items?: FaqItem[] }) {
       <div className="container-site grid grid-cols-1 gap-6 md:gap-7 lg:grid-cols-[360px_minmax(0,1fr)] lg:items-start lg:gap-24">
         <Reveal stagger={0.05} className="flex flex-col gap-4 md:gap-[18px]">
           <div data-reveal>
-            <Eyebrow number="08" label="FAQ" />
+            <Eyebrow number="07" label="FAQ" />
           </div>
           <div data-reveal>
             <SectionTitle id="faq-title">

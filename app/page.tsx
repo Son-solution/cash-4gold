@@ -10,7 +10,6 @@ import { LivePrices } from "@/components/sections/LivePrices";
 import { MetalCalculator } from "@/components/sections/MetalCalculator";
 import { Reviews } from "@/components/sections/Reviews";
 import { Services } from "@/components/sections/Services";
-import { Trust } from "@/components/sections/Trust";
 import { StructuredData } from "@/components/seo/StructuredData";
 import { getMarketSnapshot } from "@/lib/market/provider";
 
@@ -31,7 +30,6 @@ export default async function HomePage() {
           <MetalCalculator />
           <Services />
           <HowItWorks />
-          <Trust />
           <Reviews />
           <FAQ />
           <Contact />
