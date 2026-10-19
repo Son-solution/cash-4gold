@@ -9,12 +9,18 @@ import { HESSEN } from "./hessen";
 import { MECKLENBURG_VORPOMMERN } from "./mecklenburg-vorpommern";
 import { NIEDERSACHSEN } from "./niedersachsen";
 import { NORDRHEIN_WESTFALEN } from "./nordrhein-westfalen";
+import { RHEINLAND_PFALZ } from "./rheinland-pfalz";
+import { SAARLAND } from "./saarland";
+import { SACHSEN } from "./sachsen";
+import { SACHSEN_ANHALT } from "./sachsen-anhalt";
+import { SCHLESWIG_HOLSTEIN } from "./schleswig-holstein";
+import { THUERINGEN } from "./thueringen";
 
 /**
  * All states shown under "Städte" in the footer, in display order.
  * New state: add a file next to this one and list it here — pages, footer and sitemap follow automatically.
  */
-export const STATES: State[] = [BADEN_WUERTTEMBERG, BAYERN, BERLIN, BRANDENBURG, BREMEN, HAMBURG, HESSEN, MECKLENBURG_VORPOMMERN, NIEDERSACHSEN, NORDRHEIN_WESTFALEN];
+export const STATES: State[] = [BADEN_WUERTTEMBERG, BAYERN, BERLIN, BRANDENBURG, BREMEN, HAMBURG, HESSEN, MECKLENBURG_VORPOMMERN, NIEDERSACHSEN, NORDRHEIN_WESTFALEN, RHEINLAND_PFALZ, SAARLAND, SACHSEN, SACHSEN_ANHALT, SCHLESWIG_HOLSTEIN, THUERINGEN];
 
 export const CITY_PREFIX = "goldankauf-";
 
