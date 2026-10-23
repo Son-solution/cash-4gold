@@ -10,7 +10,7 @@ export const MECKLENBURG_VORPOMMERN: State = {
       name: "Rostock",
       metaTitle: "Goldankauf Rostock – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Rostock: Altgold, Schmuck, Münzen, Barren und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Börsenkurs.",
+        "Gold verkaufen in Rostock, von der Südstadt bis Lütten Klein: Altgold, Schmuck, Münzen und Barren versichert einsenden – bezahlt nach Börsenkurs.",
       heroText:
         "Von der Kröpeliner Straße bis Warnemünde: Verkaufen Sie Altgold, Schmuck, Münzen und Zahngold aus Rostock bequem per Post – bewertet nach Tageskurs.",
       intro: {
@@ -41,7 +41,7 @@ export const MECKLENBURG_VORPOMMERN: State = {
       name: "Schwerin",
       metaTitle: "Goldankauf Schwerin – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Schwerin: Goldschmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Tageskurs bewertet.",
+        "Goldankauf für Schwerin, Schelfstadt und Lankow: Goldschmuck, Münzen und Zahngold kostenlos per Post verkaufen – transparent nach Tageskurs bewertet.",
       heroText:
         "Ob aus der Schelfstadt, Lankow oder Zippendorf: Senden Sie Ihr Gold aus Schwerin versichert ein und erhalten Sie ein transparentes Angebot.",
       intro: {
@@ -103,7 +103,7 @@ export const MECKLENBURG_VORPOMMERN: State = {
       name: "Stralsund",
       metaTitle: "Goldankauf Stralsund – Altgold & Goldschmuck verkaufen",
       metaDescription:
-        "Goldankauf für Stralsund: Altgold, Ketten, Ringe, Münzen und Zahngold versichert einsenden und nach aktuellem Goldkurs verkaufen.",
+        "Gold verkaufen in Stralsund und auf Rügen: Altgold, Ketten, Ringe und Zahngold versichert per Versand einsenden – Auszahlung nach aktuellem Goldkurs.",
       heroText:
         "Ob aus der Altstadt, Knieper oder Grünhufe: Schicken Sie Ihr Gold aus Stralsund kostenlos ein und erhalten Sie ein Angebot nach Tageskurs.",
       intro: {
@@ -134,7 +134,7 @@ export const MECKLENBURG_VORPOMMERN: State = {
       name: "Greifswald",
       metaTitle: "Goldankauf Greifswald – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Greifswald: Goldschmuck, Münzen, Barren und Zahngold kostenlos einsenden – geprüft nach Gewicht und Feingehalt, bezahlt nach Börsenkurs.",
+        "Goldankauf für Greifswald und Schönwalde: Schmuck, Münzen, Barren und Zahngold kostenlos einsenden – nach Gewicht und Feingehalt fair bezahlt.",
       heroText:
         "Von Wieck bis Schönwalde: Verkaufen Sie Ihr Gold aus Greifswald bequem per Post – mit transparentem Angebot nach Tageskurs.",
       intro: {
@@ -165,7 +165,7 @@ export const MECKLENBURG_VORPOMMERN: State = {
       name: "Wismar",
       metaTitle: "Goldankauf Wismar – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Wismar: Altgold, Schmuck, Münzen und Zahngold kostenlos per Post einsenden und nach Tageskurs verkaufen – versichert und transparent.",
+        "Gold verkaufen in Wismar und auf der Insel Poel: Altgold, Goldschmuck und Münzen versichert per Post einschicken – bewertet nach Börsenkurs.",
       heroText:
         "Ob aus der Altstadt, Wendorf oder Friedenshof: Senden Sie Ihr Gold aus Wismar versichert ein und erhalten Sie ein faires Angebot.",
       intro: {
@@ -196,7 +196,7 @@ export const MECKLENBURG_VORPOMMERN: State = {
       name: "Güstrow",
       metaTitle: "Goldankauf Güstrow – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Güstrow: Goldschmuck, Münzen, Barren und Zahngold versichert einsenden – sorgfältig geprüft und nach Börsenkurs bezahlt.",
+        "Goldankauf für Güstrow und Umgebung: Altgold, Ringe, Ketten und Zahngold kostenlos per Versand verkaufen – fair nach aktuellem Tageskurs bezahlt.",
       heroText:
         "Von der Altstadt bis zur Südstadt: Verkaufen Sie Ihr Gold aus Güstrow per Post – geprüft nach Gewicht, Feingehalt und Tageskurs.",
       intro: {
@@ -227,7 +227,7 @@ export const MECKLENBURG_VORPOMMERN: State = {
       name: "Waren (Müritz)",
       metaTitle: "Goldankauf Waren (Müritz) – Altgold & Goldschmuck verkaufen",
       metaDescription:
-        "Goldankauf für Waren (Müritz): Altgold, Schmuck, Münzen und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Tageskurs.",
+        "Gold verkaufen in Waren (Müritz) und an der Seenplatte: Schmuck, Münzen und Zahngold versichert einsenden – transparent nach Börsenkurs bewertet.",
       heroText:
         "Ob aus der Altstadt, Papenberg oder Ecktannen: Senden Sie Ihr Gold aus Waren kostenlos ein und erhalten Sie ein Angebot nach Börsenkurs.",
       intro: {
@@ -258,7 +258,7 @@ export const MECKLENBURG_VORPOMMERN: State = {
       name: "Pasewalk",
       metaTitle: "Goldankauf Pasewalk – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Pasewalk: Goldschmuck, Münzen und Zahngold kostenlos per Post einsenden – nach Gewicht und Feingehalt geprüft, nach Börsenkurs bezahlt.",
+        "Goldankauf für Pasewalk, Torgelow und Ueckermünde: Altgold, Goldschmuck und Zahngold kostenlos per Post einschicken – Auszahlung nach Tageskurs.",
       heroText:
         "Aus Pasewalk und der Uecker-Randow-Region: Verkaufen Sie Ihr Gold bequem per Post – mit transparentem Angebot nach Tageskurs.",
       intro: {
@@ -289,7 +289,7 @@ export const MECKLENBURG_VORPOMMERN: State = {
       name: "Ribnitz-Damgarten",
       metaTitle: "Goldankauf Ribnitz-Damgarten – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Ribnitz-Damgarten: Altgold, Goldschmuck, Münzen und Zahngold per Post verkaufen – kostenlos, versichert und nach Tageskurs bewertet.",
+        "Gold verkaufen in Ribnitz-Damgarten und auf dem Fischland: Schmuck, Münzen und Zahngold versichert einsenden – fair nach aktuellem Goldkurs bezahlt.",
       heroText:
         "Ob aus Ribnitz, Damgarten oder Klockenhagen: Senden Sie Ihr Gold versichert ein und erhalten Sie ein transparentes Angebot nach Börsenkurs.",
       intro: {
@@ -320,7 +320,7 @@ export const MECKLENBURG_VORPOMMERN: State = {
       name: "Demmin",
       metaTitle: "Goldankauf Demmin – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Demmin: Altgold, Schmuck, Münzen und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Goldkurs.",
+        "Goldankauf für Demmin, Loitz und Dargun: Altgold, Ringe, Münzen und Zahngold kostenlos per Versand verkaufen – nach Gewicht und Tageskurs bewertet.",
       heroText:
         "Aus der Hansestadt Demmin und dem Umland: Verkaufen Sie Ihr Gold per Post – nachvollziehbar geprüft und nach Tageskurs bezahlt.",
       intro: {
@@ -351,7 +351,7 @@ export const MECKLENBURG_VORPOMMERN: State = {
       name: "Anklam",
       metaTitle: "Goldankauf Anklam – Altgold & Goldschmuck verkaufen",
       metaDescription:
-        "Goldankauf für Anklam: Altgold, Ketten, Ringe, Münzen und Zahngold versichert einsenden und nach aktuellem Goldkurs verkaufen.",
+        "Gold verkaufen in Anklam und Richtung Usedom: Goldschmuck, Münzen, Barren und Zahngold versichert per Post einsenden – bezahlt nach Börsenkurs.",
       heroText:
         "Ob aus Anklam, Gellendin oder Pelsin: Schicken Sie Ihr Gold kostenlos ein und erhalten Sie ein Angebot nach Gewicht und Tageskurs.",
       intro: {
@@ -382,7 +382,7 @@ export const MECKLENBURG_VORPOMMERN: State = {
       name: "Teterow",
       metaTitle: "Goldankauf Teterow – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Teterow: Goldschmuck, Münzen, Barren und Zahngold kostenlos per Post einsenden – bewertet nach Börsenkurs.",
+        "Goldankauf für Teterow, Malchin und Gnoien: Altgold, Ketten und Zahngold kostenlos einsenden, prüfen lassen und zum aktuellen Goldkurs verkaufen.",
       heroText:
         "Aus Teterow und der Mecklenburgischen Schweiz: Verkaufen Sie Ihr Gold bequem per Post – geprüft nach Gewicht und Feingehalt.",
       intro: {
@@ -413,7 +413,7 @@ export const MECKLENBURG_VORPOMMERN: State = {
       name: "Parchim",
       metaTitle: "Goldankauf Parchim – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Parchim: Altgold, Schmuck, Münzen und Zahngold kostenlos und versichert einsenden – nach aktuellem Tageskurs bewertet.",
+        "Gold verkaufen in Parchim, Lübz und Goldberg: Schmuck, Münzen und Zahngold versichert per Versand einschicken – transparent nach Tageskurs bewertet.",
       heroText:
         "Ob aus der Altstadt, der Weststadt oder Slate: Senden Sie Ihr Gold aus Parchim kostenlos ein und erhalten Sie ein faires Angebot.",
       intro: {
@@ -444,7 +444,7 @@ export const MECKLENBURG_VORPOMMERN: State = {
       name: "Malchin",
       metaTitle: "Goldankauf Malchin – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Malchin: Goldschmuck, Münzen und Zahngold versichert per Post einsenden – fair geprüft und nach Börsenkurs bezahlt.",
+        "Goldankauf für Malchin und Stavenhagen: Altgold, Goldschmuck, Münzen und Zahngold kostenlos per Post verkaufen – fair nach Börsenkurs bezahlt.",
       heroText:
         "Aus Malchin zwischen Malchiner und Kummerower See: Verkaufen Sie Ihr Gold per Post – mit transparentem Angebot nach Tageskurs.",
       intro: {

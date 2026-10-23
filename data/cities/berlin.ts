@@ -11,7 +11,7 @@ export const BERLIN: State = {
       name: "Berlin-Mitte",
       metaTitle: "Goldankauf Berlin-Mitte – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Berlin-Mitte: Altgold, Schmuck, Münzen, Barren und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Börsenkurs.",
+        "Goldankauf für Berlin-Mitte, Moabit und Wedding: Altgold, Schmuck, Münzen und Barren kostenlos per Post einsenden – bezahlt nach aktuellem Börsenkurs.",
       heroText:
         "Von Moabit bis Gesundbrunnen: Verkaufen Sie Altgold, Schmuck, Münzen und Zahngold aus Berlin-Mitte bequem per Post – bewertet nach Gewicht, Feingehalt und Tageskurs.",
       intro: {
@@ -73,7 +73,7 @@ export const BERLIN: State = {
       name: "Spandau",
       metaTitle: "Goldankauf Spandau – Altgold verkaufen per Post",
       metaDescription:
-        "Gold verkaufen in Spandau: Altgold, Schmuck, Münzen und Zahngold kostenlos einsenden und nach aktuellem Börsenkurs transparent bewerten lassen.",
+        "Gold verkaufen in Spandau, Siemensstadt und Staaken: Schmuck, Münzen und Zahngold versichert einschicken und fair nach Tageskurs auszahlen lassen.",
       heroText:
         "Von der Altstadt bis Kladow: Verkaufen Sie Ihr Gold aus Spandau per Post – kostenlos, versichert und fair nach Tageskurs bewertet.",
       intro: {
@@ -104,7 +104,7 @@ export const BERLIN: State = {
       name: "Neukölln",
       metaTitle: "Goldankauf Neukölln – Gold & Zahngold verkaufen",
       metaDescription:
-        "Goldankauf für Neukölln: Altgold, Goldschmuck, Münzen und Zahngold per Versand verkaufen – kostenlos, versichert und nach Tageskurs bewertet.",
+        "Von Reuterkiez bis Britz: Altgold, Goldketten, Münzen und Zahngold aus Neukölln kostenlos per Versand verkaufen – transparent nach Börsenkurs bewertet.",
       heroText:
         "Ob aus dem Reuterkiez, Britz oder Rudow: Schicken Sie Ihr Gold aus Neukölln versichert ein und erhalten Sie ein klares Angebot nach Börsenkurs.",
       intro: {

@@ -10,7 +10,7 @@ export const RHEINLAND_PFALZ: State = {
       name: "Mainz",
       metaTitle: "Goldankauf Mainz – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Mainz: Altgold, Schmuck, Münzen, Barren und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Börsenkurs.",
+        "Goldankauf für Mainz, Gonsenheim und die Neustadt: Altgold, Schmuck, Münzen und Barren kostenlos per Post verkaufen – bewertet nach Börsenkurs.",
       heroText:
         "Von der Altstadt bis Gonsenheim: Verkaufen Sie Altgold, Schmuck, Münzen und Zahngold aus Mainz bequem per Post – bewertet nach Gewicht, Feingehalt und Tageskurs.",
       intro: {
@@ -72,7 +72,7 @@ export const RHEINLAND_PFALZ: State = {
       name: "Koblenz",
       metaTitle: "Goldankauf Koblenz – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Koblenz: Altgold, Goldschmuck, Münzen und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Goldkurs.",
+        "Gold verkaufen in Koblenz, Ehrenbreitstein und Lützel: Goldschmuck, Münzen und Zahngold versichert einsenden – fair nach aktuellem Tageskurs bezahlt.",
       heroText:
         "Von Ehrenbreitstein bis Güls: Verkaufen Sie Ihr Gold aus Koblenz per Post – sorgfältig geprüft und fair nach Tageskurs bezahlt.",
       intro: {
@@ -103,7 +103,7 @@ export const RHEINLAND_PFALZ: State = {
       name: "Trier",
       metaTitle: "Goldankauf Trier – Altgold & Goldmünzen verkaufen",
       metaDescription:
-        "Goldankauf für Trier: Goldschmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Börsenkurs bewertet.",
+        "Goldankauf für Trier, Heiligkreuz und Olewig: Altgold, Ringe, Münzen und Zahngold kostenlos per Versand verkaufen – transparent nach Goldkurs.",
       heroText:
         "Ob aus Heiligkreuz, Ehrang oder rund um die Porta Nigra: Senden Sie Ihr Gold aus Trier versichert ein und erhalten Sie ein transparentes Angebot.",
       intro: {
@@ -134,7 +134,7 @@ export const RHEINLAND_PFALZ: State = {
       name: "Kaiserslautern",
       metaTitle: "Goldankauf Kaiserslautern – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Kaiserslautern: Altgold, Schmuck, Münzen, Barren und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Börsenkurs.",
+        "Gold verkaufen in Kaiserslautern und am Betzenberg: Schmuck, Münzen, Barren und Zahngold versichert per Post einsenden – nach Börsenkurs bezahlt.",
       heroText:
         "Vom Betzenberg bis Hohenecken: Verkaufen Sie Altgold, Schmuck und Münzen aus Kaiserslautern bequem per Post – fair bewertet nach Tageskurs.",
       intro: {
@@ -165,7 +165,7 @@ export const RHEINLAND_PFALZ: State = {
       name: "Worms",
       metaTitle: "Goldankauf Worms – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Worms: Goldschmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Tageskurs bewertet.",
+        "Goldankauf für Worms, Herrnsheim und Pfeddersheim: Altgold, Goldketten und Münzen kostenlos einschicken und zum aktuellen Tageskurs verkaufen.",
       heroText:
         "Ob aus Herrnsheim, Pfeddersheim oder der Innenstadt: Senden Sie Ihr Gold aus Worms versichert ein und erhalten Sie ein transparentes Angebot nach Börsenkurs.",
       intro: {
@@ -196,7 +196,7 @@ export const RHEINLAND_PFALZ: State = {
       name: "Speyer",
       metaTitle: "Goldankauf Speyer – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Speyer: Altgold, Goldschmuck, Münzen und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Goldkurs.",
+        "Gold verkaufen in Speyer und Schifferstadt: Goldschmuck, Münzen und Zahngold versichert per Versand einsenden – nach Gewicht und Goldkurs bewertet.",
       heroText:
         "Von der Altstadt bis Speyer-West: Verkaufen Sie Ihr Gold aus Speyer per Post – sorgfältig geprüft und fair nach Tageskurs bezahlt.",
       intro: {
@@ -227,7 +227,7 @@ export const RHEINLAND_PFALZ: State = {
       name: "Bad Kreuznach",
       metaTitle: "Goldankauf Bad Kreuznach – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Bad Kreuznach: Goldschmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Börsenkurs bewertet.",
+        "Goldankauf für Bad Kreuznach und das Nahetal: Altgold, Schmuck, Münzen und Zahngold kostenlos per Post verkaufen – fair nach Börsenkurs bezahlt.",
       heroText:
         "Ob aus der Neustadt, Planig oder Bad Münster am Stein: Senden Sie Ihr Gold aus Bad Kreuznach versichert ein und erhalten Sie ein transparentes Angebot.",
       intro: {
@@ -320,7 +320,7 @@ export const RHEINLAND_PFALZ: State = {
       name: "Pirmasens",
       metaTitle: "Goldankauf Pirmasens – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Pirmasens: Altgold, Goldschmuck, Münzen und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Goldkurs.",
+        "Gold verkaufen in Pirmasens, Winzeln und Fehrbach: Ringe, Ketten, Münzen und Zahngold versichert einsenden – Auszahlung nach aktuellem Tageskurs.",
       heroText:
         "Von der Innenstadt bis Winzeln: Verkaufen Sie Ihr Gold aus Pirmasens per Post – sorgfältig geprüft und fair nach Tageskurs bezahlt.",
       intro: {
@@ -351,7 +351,7 @@ export const RHEINLAND_PFALZ: State = {
       name: "Zweibrücken",
       metaTitle: "Goldankauf Zweibrücken – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Zweibrücken: Goldschmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Börsenkurs bewertet.",
+        "Goldankauf für Zweibrücken, Ixheim und Bubenhausen: Altgold, Goldschmuck und Barren kostenlos per Versand verkaufen – bewertet nach Goldkurs.",
       heroText:
         "Ob aus Ixheim, Bubenhausen oder der Innenstadt: Senden Sie Ihr Gold aus Zweibrücken versichert ein und erhalten Sie ein transparentes Angebot.",
       intro: {
@@ -382,7 +382,7 @@ export const RHEINLAND_PFALZ: State = {
       name: "Andernach",
       metaTitle: "Goldankauf Andernach – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Andernach: Altgold, Schmuck, Münzen, Barren und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Börsenkurs.",
+        "Gold verkaufen in Andernach, Namedy und Eich: Schmuck, Münzen und Zahngold versichert per Post einschicken – transparent nach Börsenkurs bezahlt.",
       heroText:
         "Von Namedy bis Miesenheim: Verkaufen Sie Altgold, Schmuck und Münzen aus Andernach bequem per Post – fair bewertet nach Tageskurs.",
       intro: {

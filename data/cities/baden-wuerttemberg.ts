@@ -72,7 +72,7 @@ export const BADEN_WUERTTEMBERG: State = {
       name: "Karlsruhe",
       metaTitle: "Goldankauf Karlsruhe – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Karlsruhe: Schmuck, Münzen, Barren und Zahngold kostenlos einsenden, nach Börsenkurs bewerten lassen und schnell ausgezahlt bekommen.",
+        "Gold verkaufen in Karlsruhe, von Durlach bis Mühlburg: Schmuck, Münzen, Barren und Zahngold kostenlos per Post einsenden – fair nach Börsenkurs bezahlt.",
       heroText:
         "Von Durlach bis Neureut: Verkaufen Sie Ihr Gold aus Karlsruhe per Post – mit kostenlosem Versandpaket, transparenter Bewertung und zügiger Überweisung.",
       intro: {

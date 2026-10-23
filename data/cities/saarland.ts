@@ -10,7 +10,7 @@ export const SAARLAND: State = {
       name: "Saarbrücken",
       metaTitle: "Goldankauf Saarbrücken – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Saarbrücken: Altgold, Schmuck, Münzen, Barren und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Börsenkurs.",
+        "Goldankauf für Saarbrücken, St. Johann und Malstatt: Altgold, Schmuck, Münzen und Barren kostenlos per Post verkaufen – bewertet nach Börsenkurs.",
       heroText:
         "Von St. Johann bis Dudweiler: Verkaufen Sie Altgold, Schmuck, Münzen und Zahngold aus Saarbrücken bequem per Post – bewertet nach Gewicht, Feingehalt und Tageskurs.",
       intro: {
@@ -103,7 +103,7 @@ export const SAARLAND: State = {
       name: "Völklingen",
       metaTitle: "Goldankauf Völklingen – Altgold & Goldschmuck verkaufen",
       metaDescription:
-        "Goldankauf für Völklingen: Goldschmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Börsenkurs bewertet.",
+        "Gold verkaufen in Völklingen, Wehrden und Ludweiler: Goldschmuck, Münzen und Zahngold versichert einsenden – fair nach aktuellem Tageskurs bezahlt.",
       heroText:
         "Ob aus Wehrden, Ludweiler oder der Innenstadt: Senden Sie Ihr Gold aus Völklingen versichert ein und erhalten Sie ein transparentes Angebot.",
       intro: {
@@ -134,7 +134,7 @@ export const SAARLAND: State = {
       name: "Saarlouis",
       metaTitle: "Goldankauf Saarlouis – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Saarlouis: Altgold, Schmuck, Münzen, Barren und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Börsenkurs.",
+        "Goldankauf für Saarlouis, Roden und Fraulautern: Altgold, Ringe, Ketten und Zahngold kostenlos per Versand einschicken – Auszahlung nach Goldkurs.",
       heroText:
         "Von Roden bis Lisdorf: Verkaufen Sie Altgold, Schmuck und Münzen aus Saarlouis bequem per Post – fair bewertet nach Tageskurs.",
       intro: {
@@ -165,7 +165,7 @@ export const SAARLAND: State = {
       name: "Merzig",
       metaTitle: "Goldankauf Merzig – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Merzig: Goldschmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Tageskurs bewertet.",
+        "Gold verkaufen in Merzig, Hilbringen und Brotdorf: Schmuck, Münzen, Barren und Zahngold versichert per Post einsenden – transparent nach Börsenkurs.",
       heroText:
         "Ob aus Hilbringen, Besseringen oder der Kernstadt: Senden Sie Ihr Gold aus Merzig versichert ein und erhalten Sie ein transparentes Angebot nach Börsenkurs.",
       intro: {
@@ -196,7 +196,7 @@ export const SAARLAND: State = {
       name: "St. Wendel",
       metaTitle: "Goldankauf St. Wendel – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in St. Wendel: Altgold, Goldschmuck, Münzen und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Goldkurs.",
+        "Goldankauf für St. Wendel und Bliesen: Altgold, Goldschmuck und Münzen kostenlos einsenden, nach Feingehalt prüfen und zum Tageskurs verkaufen.",
       heroText:
         "Von Bliesen bis Oberlinxweiler: Verkaufen Sie Ihr Gold aus St. Wendel per Post – sorgfältig geprüft und fair nach Tageskurs bezahlt.",
       intro: {
@@ -258,7 +258,7 @@ export const SAARLAND: State = {
       name: "Lebach",
       metaTitle: "Goldankauf Lebach – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Lebach: Altgold, Schmuck, Münzen, Barren und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Börsenkurs.",
+        "Gold verkaufen in Lebach, Landsweiler und Gresaubach: Ringe, Ketten und Zahngold versichert per Versand einschicken – fair nach Goldkurs bezahlt.",
       heroText:
         "Von Landsweiler bis Gresaubach: Verkaufen Sie Altgold, Schmuck und Münzen aus Lebach bequem per Post – fair bewertet nach Tageskurs.",
       intro: {
@@ -289,7 +289,7 @@ export const SAARLAND: State = {
       name: "Püttlingen",
       metaTitle: "Goldankauf Püttlingen – Altgold & Goldschmuck verkaufen",
       metaDescription:
-        "Goldankauf für Püttlingen: Schmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Tageskurs bewertet.",
+        "Goldankauf für Püttlingen und Köllerbach: Altgold, Schmuck, Münzen und Zahngold kostenlos per Post verkaufen – bewertet nach aktuellem Börsenkurs.",
       heroText:
         "Ob aus Köllerbach, Engelfangen oder Püttlingen selbst: Senden Sie Ihr Gold versichert ein und erhalten Sie ein transparentes Angebot nach Börsenkurs.",
       intro: {
@@ -351,7 +351,7 @@ export const SAARLAND: State = {
       name: "Bexbach",
       metaTitle: "Goldankauf Bexbach – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Bexbach: Goldschmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Börsenkurs bewertet.",
+        "Gold verkaufen in Bexbach, Oberbexbach und Frankenholz: Goldschmuck, Münzen und Barren versichert einsenden – Auszahlung nach aktuellem Tageskurs.",
       heroText:
         "Ob aus Oberbexbach, Frankenholz oder Höchen: Senden Sie Ihr Gold aus Bexbach versichert ein und erhalten Sie ein transparentes Angebot.",
       intro: {
@@ -382,7 +382,7 @@ export const SAARLAND: State = {
       name: "Blieskastel",
       metaTitle: "Goldankauf Blieskastel – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Blieskastel: Altgold, Schmuck, Münzen, Barren und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Börsenkurs.",
+        "Goldankauf für Blieskastel, Lautzkirchen und Webenheim: Altgold, Ringe und Zahngold kostenlos per Versand einschicken – fair nach Goldkurs bezahlt.",
       heroText:
         "Von Lautzkirchen bis Niederwürzbach: Verkaufen Sie Altgold, Schmuck und Münzen aus Blieskastel bequem per Post – fair bewertet nach Tageskurs.",
       intro: {
@@ -413,7 +413,7 @@ export const SAARLAND: State = {
       name: "Wadgassen",
       metaTitle: "Goldankauf Wadgassen – Altgold & Goldschmuck verkaufen",
       metaDescription:
-        "Goldankauf für Wadgassen: Schmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Tageskurs bewertet.",
+        "Gold verkaufen in Wadgassen, Hostenbach und Differten: Schmuck, Münzen und Zahngold versichert per Post einsenden – transparent nach Börsenkurs.",
       heroText:
         "Ob aus Hostenbach, Differten oder Schaffhausen: Senden Sie Ihr Gold aus Wadgassen versichert ein und erhalten Sie ein transparentes Angebot nach Börsenkurs.",
       intro: {
@@ -444,7 +444,7 @@ export const SAARLAND: State = {
       name: "Wadern",
       metaTitle: "Goldankauf Wadern – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Wadern: Altgold, Goldschmuck, Münzen und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Goldkurs.",
+        "Goldankauf für Wadern, Nunkirchen und Lockweiler: Altgold, Goldketten, Münzen und Zahngold kostenlos einsenden – bewertet nach aktuellem Tageskurs.",
       heroText:
         "Von Lockweiler bis Nunkirchen: Verkaufen Sie Ihr Gold aus Wadern per Post – sorgfältig geprüft und fair nach Tageskurs bezahlt.",
       intro: {

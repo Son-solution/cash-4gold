@@ -10,7 +10,7 @@ export const BRANDENBURG: State = {
       name: "Potsdam",
       metaTitle: "Goldankauf Potsdam – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Potsdam: Altgold, Schmuck, Münzen, Barren und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Börsenkurs.",
+        "Gold verkaufen in Potsdam, Babelsberg und Bornstedt: Altgold, Schmuck, Münzen und Barren versichert per Post einsenden – fair nach Börsenkurs bezahlt.",
       heroText:
         "Von Babelsberg bis Bornstedt: Verkaufen Sie Altgold, Schmuck, Münzen und Zahngold aus Potsdam bequem per Post – bewertet nach Gewicht, Feingehalt und Tageskurs.",
       intro: {
@@ -134,7 +134,7 @@ export const BRANDENBURG: State = {
       name: "Oranienburg",
       metaTitle: "Goldankauf Oranienburg – Altgold verkaufen per Post",
       metaDescription:
-        "Gold verkaufen in Oranienburg: Altgold, Schmuck, Münzen und Zahngold kostenlos einsenden und nach aktuellem Börsenkurs transparent bewerten lassen.",
+        "Goldankauf für Oranienburg und Lehnitz: Goldschmuck, Münzen und Zahngold kostenlos einsenden, nach Feingehalt prüfen und zum Tageskurs verkaufen.",
       heroText:
         "Von Lehnitz bis Friedrichsthal: Verkaufen Sie Ihr Gold aus Oranienburg per Post – kostenlos, versichert und fair nach Tageskurs bewertet.",
       intro: {
@@ -165,7 +165,7 @@ export const BRANDENBURG: State = {
       name: "Falkensee",
       metaTitle: "Goldankauf Falkensee – Gold & Münzen verkaufen",
       metaDescription:
-        "Goldankauf für Falkensee: Goldschmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Tageskurs bewertet.",
+        "Gold verkaufen in Falkensee, Finkenkrug und Seegefeld: Schmuck, Münzen, Barren und Zahngold bequem per Post einschicken – Auszahlung nach Tageskurs.",
       heroText:
         "Ob aus Finkenkrug, Seegefeld oder Falkenhagen: Senden Sie Ihr Gold aus Falkensee versichert ein und erhalten Sie ein klares Angebot.",
       intro: {

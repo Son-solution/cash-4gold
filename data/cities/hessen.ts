@@ -10,7 +10,7 @@ export const HESSEN: State = {
       name: "Frankfurt am Main",
       metaTitle: "Goldankauf Frankfurt am Main – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Frankfurt am Main: Altgold, Schmuck, Münzen, Barren und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Börsenkurs.",
+        "Gold verkaufen in Frankfurt am Main, von Sachsenhausen bis Bornheim: Altgold, Münzen und Barren versichert einsenden – nach aktuellem Börsenkurs bezahlt.",
       heroText:
         "Von Sachsenhausen bis Bockenheim: Verkaufen Sie Altgold, Schmuck, Münzen und Barren aus Frankfurt bequem per Post – bewertet nach Gewicht, Feingehalt und Tageskurs.",
       intro: {
@@ -41,7 +41,7 @@ export const HESSEN: State = {
       name: "Wiesbaden",
       metaTitle: "Goldankauf Wiesbaden – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Wiesbaden: Goldschmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Tageskurs bewertet.",
+        "Goldankauf für Wiesbaden, Biebrich und Sonnenberg: Goldschmuck, Münzen, Barren und Zahngold kostenlos per Post verkaufen – bewertet nach Tageskurs.",
       heroText:
         "Ob aus Biebrich, Sonnenberg oder der Innenstadt: Senden Sie Ihr Gold aus Wiesbaden versichert ein und erhalten Sie ein transparentes Angebot nach Börsenkurs.",
       intro: {
@@ -72,7 +72,7 @@ export const HESSEN: State = {
       name: "Darmstadt",
       metaTitle: "Goldankauf Darmstadt – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Darmstadt: Altgold, Schmuck, Münzen und Zahngold kostenlos einsenden, präzise prüfen lassen und nach Börsenkurs bezahlt werden.",
+        "Gold verkaufen in Darmstadt, Bessungen und Eberstadt: Schmuck, Münzen und Zahngold kostenlos einsenden, nach Feingehalt prüfen und fair auszahlen lassen.",
       heroText:
         "Von Bessungen bis Kranichstein: Verkaufen Sie Ihr Gold aus Darmstadt per Post – nachvollziehbar geprüft und nach Tageskurs abgerechnet.",
       intro: {
@@ -134,7 +134,7 @@ export const HESSEN: State = {
       name: "Hanau",
       metaTitle: "Goldankauf Hanau – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Hanau: Goldschmuck, Münzen, Barren und Zahngold kostenlos einsenden – geprüft nach Gewicht und Feingehalt, bezahlt nach Börsenkurs.",
+        "Goldankauf für Hanau, Steinheim und Großauheim: Altgold, Goldschmuck, Münzen und Barren versichert per Versand verkaufen – transparent nach Börsenkurs.",
       heroText:
         "Von Steinheim bis Großauheim: Verkaufen Sie Ihr Gold aus Hanau bequem per Post – mit transparentem Angebot nach Tageskurs.",
       intro: {
@@ -196,7 +196,7 @@ export const HESSEN: State = {
       name: "Gießen",
       metaTitle: "Goldankauf Gießen – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Gießen: Altgold, Goldschmuck, Münzen und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Goldkurs.",
+        "Gold verkaufen in Gießen und Wieseck: Altgold, Ringe, Ketten und Zahngold kostenlos per Post einschicken – Auszahlung nach aktuellem Goldkurs.",
       heroText:
         "Von Wieseck bis Kleinlinden: Verkaufen Sie Ihr Gold aus Gießen per Post – nachvollziehbar geprüft und fair nach Tageskurs bezahlt.",
       intro: {
@@ -475,7 +475,7 @@ export const HESSEN: State = {
       name: "Rüdesheim am Rhein",
       metaTitle: "Goldankauf Rüdesheim am Rhein – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Rüdesheim am Rhein: Altgold, Goldschmuck, Münzen und Zahngold per Post verkaufen – kostenlos, versichert und nach Tageskurs bewertet.",
+        "Goldankauf für Rüdesheim am Rhein und Assmannshausen: Schmuck, Münzen und Zahngold versichert einsenden und fair zum Tageskurs verkaufen.",
       heroText:
         "Ob aus Rüdesheim, Assmannshausen oder Aulhausen: Senden Sie Ihr Gold kostenlos ein und erhalten Sie ein Angebot nach Börsenkurs.",
       intro: {

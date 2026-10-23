@@ -10,7 +10,7 @@ export const NORDRHEIN_WESTFALEN: State = {
       name: "Köln",
       metaTitle: "Goldankauf Köln – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Köln: Altgold, Schmuck, Münzen, Barren und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Börsenkurs.",
+        "Gold verkaufen in Köln, von Ehrenfeld bis Deutz: Altgold, Schmuck, Münzen und Barren versichert per Post einsenden – bezahlt nach aktuellem Börsenkurs.",
       heroText:
         "Von Ehrenfeld bis Deutz: Verkaufen Sie Altgold, Schmuck, Münzen und Zahngold aus Köln bequem per Post – bewertet nach Gewicht, Feingehalt und Tageskurs.",
       intro: {
@@ -41,7 +41,7 @@ export const NORDRHEIN_WESTFALEN: State = {
       name: "Düsseldorf",
       metaTitle: "Goldankauf Düsseldorf – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Düsseldorf: Goldschmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Tageskurs bewertet.",
+        "Goldankauf für Düsseldorf, Oberkassel und Bilk: Goldschmuck, Münzen, Barren und Zahngold kostenlos per Versand verkaufen – bewertet nach Tageskurs.",
       heroText:
         "Ob aus Oberkassel, Pempelfort oder Benrath: Senden Sie Ihr Gold aus Düsseldorf versichert ein und erhalten Sie ein transparentes Angebot.",
       intro: {
@@ -72,7 +72,7 @@ export const NORDRHEIN_WESTFALEN: State = {
       name: "Dortmund",
       metaTitle: "Goldankauf Dortmund – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Dortmund: Altgold, Schmuck, Münzen und Zahngold kostenlos einsenden, präzise prüfen lassen und nach Börsenkurs bezahlt werden.",
+        "Gold verkaufen in Dortmund, Hörde und dem Kreuzviertel: Altgold, Ringe, Ketten und Zahngold versichert einsenden – fair nach Goldkurs bezahlt.",
       heroText:
         "Von Hörde bis Brackel: Verkaufen Sie Ihr Gold aus Dortmund per Post – nachvollziehbar geprüft und nach Tageskurs abgerechnet.",
       intro: {
@@ -103,7 +103,7 @@ export const NORDRHEIN_WESTFALEN: State = {
       name: "Essen",
       metaTitle: "Goldankauf Essen – Altgold & Goldschmuck verkaufen",
       metaDescription:
-        "Goldankauf für Essen: Altgold, Ketten, Ringe, Münzen und Zahngold versichert einsenden und nach aktuellem Goldkurs verkaufen.",
+        "Goldankauf für Essen, Rüttenscheid und Werden: Schmuck, Münzen und Zahngold kostenlos einsenden – nach Gewicht und Feingehalt zum Börsenkurs bezahlt.",
       heroText:
         "Ob aus Rüttenscheid, Werden oder Steele: Schicken Sie Ihr Gold aus Essen kostenlos ein und erhalten Sie ein Angebot nach Tageskurs.",
       intro: {
@@ -134,7 +134,7 @@ export const NORDRHEIN_WESTFALEN: State = {
       name: "Duisburg",
       metaTitle: "Goldankauf Duisburg – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Duisburg: Goldschmuck, Münzen, Barren und Zahngold kostenlos einsenden – geprüft nach Gewicht und Feingehalt, bezahlt nach Börsenkurs.",
+        "Gold verkaufen in Duisburg, Ruhrort und Meiderich: Altgold, Goldschmuck und Münzen versichert per Post einschicken – transparent nach Tageskurs.",
       heroText:
         "Von Ruhrort bis Rheinhausen: Verkaufen Sie Ihr Gold aus Duisburg bequem per Post – mit transparentem Angebot nach Tageskurs.",
       intro: {
@@ -165,7 +165,7 @@ export const NORDRHEIN_WESTFALEN: State = {
       name: "Bochum",
       metaTitle: "Goldankauf Bochum – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Bochum: Altgold, Schmuck, Münzen und Zahngold kostenlos per Post einsenden und nach Tageskurs verkaufen – versichert und transparent.",
+        "Goldankauf für Bochum, Wattenscheid und Langendreer: Altgold, Münzen, Barren und Zahngold kostenlos per Versand verkaufen – fair nach Börsenkurs.",
       heroText:
         "Ob aus Wattenscheid, Langendreer oder Stiepel: Senden Sie Ihr Gold aus Bochum versichert ein und erhalten Sie ein faires Angebot.",
       intro: {
@@ -196,7 +196,7 @@ export const NORDRHEIN_WESTFALEN: State = {
       name: "Wuppertal",
       metaTitle: "Goldankauf Wuppertal – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Wuppertal: Goldschmuck, Münzen, Barren und Zahngold versichert einsenden – sorgfältig geprüft und nach Börsenkurs bezahlt.",
+        "Gold verkaufen in Wuppertal, Elberfeld und Barmen: Ringe, Ketten, Münzen und Zahngold versichert einsenden – Auszahlung nach aktuellem Goldkurs.",
       heroText:
         "Von Elberfeld bis Ronsdorf: Verkaufen Sie Ihr Gold aus Wuppertal per Post – geprüft nach Gewicht, Feingehalt und Tageskurs.",
       intro: {
@@ -227,7 +227,7 @@ export const NORDRHEIN_WESTFALEN: State = {
       name: "Bielefeld",
       metaTitle: "Goldankauf Bielefeld – Altgold & Goldschmuck verkaufen",
       metaDescription:
-        "Goldankauf für Bielefeld: Altgold, Schmuck, Münzen und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Tageskurs.",
+        "Goldankauf für Bielefeld, Brackwede und Sennestadt: Altgold, Schmuck und Zahngold kostenlos per Post einschicken – bewertet nach Tageskurs.",
       heroText:
         "Ob aus Schildesche, Brackwede oder Sennestadt: Senden Sie Ihr Gold aus Bielefeld kostenlos ein und erhalten Sie ein Angebot nach Börsenkurs.",
       intro: {
@@ -258,7 +258,7 @@ export const NORDRHEIN_WESTFALEN: State = {
       name: "Bonn",
       metaTitle: "Goldankauf Bonn – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Bonn: Goldschmuck, Münzen und Zahngold kostenlos per Post einsenden – nach Gewicht und Feingehalt geprüft, nach Börsenkurs bezahlt.",
+        "Gold verkaufen in Bonn, Bad Godesberg und Beuel: Goldschmuck, Münzen und Barren versichert per Versand einsenden – bezahlt nach aktuellem Börsenkurs.",
       heroText:
         "Von Bad Godesberg bis Beuel: Verkaufen Sie Ihr Gold aus Bonn bequem per Post – mit transparentem Angebot nach Tageskurs.",
       intro: {
@@ -289,7 +289,7 @@ export const NORDRHEIN_WESTFALEN: State = {
       name: "Münster",
       metaTitle: "Goldankauf Münster – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Münster: Altgold, Goldschmuck, Münzen und Zahngold per Post verkaufen – kostenlos, versichert und nach Tageskurs bewertet.",
+        "Goldankauf für Münster, Hiltrup und das Kreuzviertel: Altgold, Ringe, Münzen und Zahngold kostenlos einsenden – fair nach Tageskurs ausgezahlt.",
       heroText:
         "Ob aus dem Kreuzviertel, Hiltrup oder Gievenbeck: Senden Sie Ihr Gold aus Münster versichert ein und erhalten Sie ein transparentes Angebot.",
       intro: {
@@ -320,7 +320,7 @@ export const NORDRHEIN_WESTFALEN: State = {
       name: "Aachen",
       metaTitle: "Goldankauf Aachen – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Aachen: Altgold, Schmuck, Münzen und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Goldkurs.",
+        "Gold verkaufen in Aachen, Burtscheid und Brand: Schmuck, Münzen, Barren und Zahngold versichert per Post einschicken – transparent nach Börsenkurs.",
       heroText:
         "Von Burtscheid bis Brand: Verkaufen Sie Ihr Gold aus Aachen per Post – nachvollziehbar geprüft und fair nach Tageskurs bezahlt.",
       intro: {
@@ -351,7 +351,7 @@ export const NORDRHEIN_WESTFALEN: State = {
       name: "Gelsenkirchen",
       metaTitle: "Goldankauf Gelsenkirchen – Altgold & Goldschmuck verkaufen",
       metaDescription:
-        "Goldankauf für Gelsenkirchen: Altgold, Ketten, Ringe, Münzen und Zahngold versichert einsenden und nach aktuellem Goldkurs verkaufen.",
+        "Goldankauf für Gelsenkirchen, Buer und Schalke: Altgold, Goldketten und Zahngold kostenlos per Versand verkaufen – Auszahlung nach aktuellem Goldkurs.",
       heroText:
         "Ob aus Buer, Schalke oder Horst: Schicken Sie Ihr Gold aus Gelsenkirchen kostenlos ein und erhalten Sie ein Angebot nach Tageskurs.",
       intro: {
@@ -382,7 +382,7 @@ export const NORDRHEIN_WESTFALEN: State = {
       name: "Mönchengladbach",
       metaTitle: "Goldankauf Mönchengladbach – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Mönchengladbach: Goldschmuck, Münzen, Barren und Zahngold kostenlos per Post einsenden – bewertet nach Börsenkurs.",
+        "Gold verkaufen in Mönchengladbach, Rheydt und Wickrath: Goldschmuck, Münzen und Zahngold versichert einsenden – fair nach Tageskurs bewertet.",
       heroText:
         "Von Rheydt bis Wickrath: Verkaufen Sie Ihr Gold aus Mönchengladbach bequem per Post – geprüft nach Gewicht und Feingehalt.",
       intro: {
@@ -413,7 +413,7 @@ export const NORDRHEIN_WESTFALEN: State = {
       name: "Krefeld",
       metaTitle: "Goldankauf Krefeld – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Krefeld: Altgold, Schmuck, Münzen und Zahngold kostenlos und versichert einsenden – nach aktuellem Tageskurs bewertet.",
+        "Goldankauf für Krefeld, Uerdingen und Linn: Altgold, Schmuck, Münzen und Barren kostenlos per Post einschicken – bezahlt nach aktuellem Börsenkurs.",
       heroText:
         "Ob aus Uerdingen, Bockum oder Fischeln: Senden Sie Ihr Gold aus Krefeld kostenlos ein und erhalten Sie ein faires Angebot.",
       intro: {
@@ -444,7 +444,7 @@ export const NORDRHEIN_WESTFALEN: State = {
       name: "Oberhausen",
       metaTitle: "Goldankauf Oberhausen – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Oberhausen: Goldschmuck, Münzen und Zahngold versichert per Post einsenden – fair geprüft und nach Börsenkurs bezahlt.",
+        "Gold verkaufen in Oberhausen, Sterkrade und Osterfeld: Ringe, Ketten und Zahngold versichert per Versand einsenden – transparent nach Goldkurs.",
       heroText:
         "Von Sterkrade bis Osterfeld: Verkaufen Sie Ihr Gold aus Oberhausen per Post – mit transparentem Angebot nach Tageskurs.",
       intro: {

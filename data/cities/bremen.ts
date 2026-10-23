@@ -11,7 +11,7 @@ export const BREMEN: State = {
       name: "Bremen",
       metaTitle: "Goldankauf Bremen – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Bremen: Altgold, Schmuck, Münzen, Barren und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Börsenkurs.",
+        "Vom Schnoor bis zur Überseestadt: Altgold, Schmuck, Münzen und Barren aus Bremen kostenlos und versichert einsenden – bewertet nach aktuellem Börsenkurs.",
       heroText:
         "Vom Viertel bis Oberneuland: Verkaufen Sie Altgold, Schmuck, Münzen und Zahngold aus Bremen bequem per Post – bewertet nach Gewicht, Feingehalt und Tageskurs.",
       intro: {
@@ -42,7 +42,7 @@ export const BREMEN: State = {
       name: "Bremerhaven",
       metaTitle: "Goldankauf Bremerhaven – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Bremerhaven: Altgold, Goldschmuck, Münzen und Zahngold per Versand verkaufen – kostenlos, versichert und nach Tageskurs bewertet.",
+        "Goldankauf für Bremerhaven, Lehe und Geestemünde: Altgold, Goldschmuck und Zahngold per Post verkaufen – versichert, kostenlos, fair nach Goldkurs.",
       heroText:
         "Ob aus Lehe, Geestemünde oder Leherheide: Senden Sie Ihr Gold aus Bremerhaven versichert ein und erhalten Sie ein transparentes Angebot nach Börsenkurs.",
       intro: {

@@ -10,7 +10,7 @@ export const SCHLESWIG_HOLSTEIN: State = {
       name: "Kiel",
       metaTitle: "Goldankauf Kiel – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Kiel: Altgold, Schmuck, Münzen, Barren und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Börsenkurs.",
+        "Goldankauf für Kiel, Düsternbrook und Gaarden: Altgold, Schmuck, Münzen und Barren kostenlos per Post verkaufen – bezahlt nach aktuellem Börsenkurs.",
       heroText:
         "Von Düsternbrook bis Schilksee: Verkaufen Sie Altgold, Schmuck, Münzen und Zahngold aus Kiel bequem per Post – bewertet nach Gewicht, Feingehalt und Tageskurs.",
       intro: {
@@ -41,7 +41,7 @@ export const SCHLESWIG_HOLSTEIN: State = {
       name: "Lübeck",
       metaTitle: "Goldankauf Lübeck – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Lübeck: Goldschmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Tageskurs bewertet.",
+        "Gold verkaufen in Lübeck, St. Gertrud und St. Lorenz: Goldschmuck, Münzen und Zahngold versichert einsenden – fair nach aktuellem Tageskurs bewertet.",
       heroText:
         "Ob aus der Altstadt, St. Gertrud oder Travemünde: Senden Sie Ihr Gold aus Lübeck versichert ein und erhalten Sie ein transparentes Angebot nach Börsenkurs.",
       intro: {
@@ -72,7 +72,7 @@ export const SCHLESWIG_HOLSTEIN: State = {
       name: "Flensburg",
       metaTitle: "Goldankauf Flensburg – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Flensburg: Altgold, Goldschmuck, Münzen und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Goldkurs.",
+        "Goldankauf für Flensburg, Mürwik und Jürgensby: Altgold, Ringe, Ketten und Zahngold kostenlos per Versand einschicken – Auszahlung nach Goldkurs.",
       heroText:
         "Von Jürgensby bis Mürwik: Verkaufen Sie Ihr Gold aus Flensburg per Post – sorgfältig geprüft und fair nach Tageskurs bezahlt.",
       intro: {
@@ -103,7 +103,7 @@ export const SCHLESWIG_HOLSTEIN: State = {
       name: "Neumünster",
       metaTitle: "Goldankauf Neumünster – Altgold & Goldschmuck verkaufen",
       metaDescription:
-        "Goldankauf für Neumünster: Schmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Börsenkurs bewertet.",
+        "Gold verkaufen in Neumünster, Einfeld und Tungendorf: Schmuck, Münzen, Barren und Zahngold versichert per Post einsenden – nach Börsenkurs bezahlt.",
       heroText:
         "Ob aus Einfeld, Tungendorf oder der Innenstadt: Senden Sie Ihr Gold aus Neumünster versichert ein und erhalten Sie ein transparentes Angebot.",
       intro: {
@@ -134,7 +134,7 @@ export const SCHLESWIG_HOLSTEIN: State = {
       name: "Norderstedt",
       metaTitle: "Goldankauf Norderstedt – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Norderstedt: Altgold, Schmuck, Münzen, Barren und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Börsenkurs.",
+        "Goldankauf für Norderstedt, Garstedt und Harksheide: Altgold, Goldschmuck und Münzen kostenlos einsenden – transparent nach aktuellem Tageskurs.",
       heroText:
         "Von Garstedt bis Friedrichsgabe: Verkaufen Sie Altgold, Schmuck und Münzen aus Norderstedt bequem per Post – fair bewertet nach Tageskurs.",
       intro: {
@@ -165,7 +165,7 @@ export const SCHLESWIG_HOLSTEIN: State = {
       name: "Elmshorn",
       metaTitle: "Goldankauf Elmshorn – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Elmshorn: Goldschmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Tageskurs bewertet.",
+        "Gold verkaufen in Elmshorn und Hainholz: Ringe, Ketten, Münzen und Zahngold versichert per Versand einschicken – fair nach aktuellem Goldkurs bezahlt.",
       heroText:
         "Ob aus Hainholz, Langelohe oder der Innenstadt: Senden Sie Ihr Gold aus Elmshorn versichert ein und erhalten Sie ein transparentes Angebot nach Börsenkurs.",
       intro: {
@@ -196,7 +196,7 @@ export const SCHLESWIG_HOLSTEIN: State = {
       name: "Pinneberg",
       metaTitle: "Goldankauf Pinneberg – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Pinneberg: Altgold, Goldschmuck, Münzen und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Goldkurs.",
+        "Goldankauf für Pinneberg, Thesdorf und Waldenau: Altgold, Schmuck und Zahngold kostenlos per Post verkaufen – bewertet nach aktuellem Börsenkurs.",
       heroText:
         "Von Quellental bis Waldenau: Verkaufen Sie Ihr Gold aus Pinneberg per Post – sorgfältig geprüft und fair nach Tageskurs bezahlt.",
       intro: {
@@ -227,7 +227,7 @@ export const SCHLESWIG_HOLSTEIN: State = {
       name: "Itzehoe",
       metaTitle: "Goldankauf Itzehoe – Altgold & Goldschmuck verkaufen",
       metaDescription:
-        "Goldankauf für Itzehoe: Schmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Tageskurs bewertet.",
+        "Gold verkaufen in Itzehoe und der Steinburger Region: Goldschmuck, Münzen und Zahngold versichert einsenden – Auszahlung nach aktuellem Tageskurs.",
       heroText:
         "Ob aus Tegelhörn, Edendorf oder der Innenstadt: Senden Sie Ihr Gold aus Itzehoe versichert ein und erhalten Sie ein transparentes Angebot.",
       intro: {
@@ -258,7 +258,7 @@ export const SCHLESWIG_HOLSTEIN: State = {
       name: "Rendsburg",
       metaTitle: "Goldankauf Rendsburg – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Rendsburg: Altgold, Schmuck, Münzen, Barren und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Börsenkurs.",
+        "Goldankauf für Rendsburg und Büdelsdorf: Altgold, Ringe, Münzen und Barren kostenlos per Versand einschicken – fair nach aktuellem Goldkurs bezahlt.",
       heroText:
         "Von der Altstadt bis Neuwerk: Verkaufen Sie Altgold, Schmuck und Münzen aus Rendsburg bequem per Post – fair bewertet nach Tageskurs.",
       intro: {
@@ -289,7 +289,7 @@ export const SCHLESWIG_HOLSTEIN: State = {
       name: "Husum",
       metaTitle: "Goldankauf Husum – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Husum: Goldschmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Börsenkurs bewertet.",
+        "Gold verkaufen in Husum und an der Nordseeküste: Schmuck, Münzen und Zahngold versichert per Post einsenden – transparent nach Börsenkurs bewertet.",
       heroText:
         "Ob aus der Innenstadt, Rödemis oder Schobüll: Senden Sie Ihr Gold aus Husum versichert ein und erhalten Sie ein transparentes Angebot nach Börsenkurs.",
       intro: {
@@ -320,7 +320,7 @@ export const SCHLESWIG_HOLSTEIN: State = {
       name: "Ahrensburg",
       metaTitle: "Goldankauf Ahrensburg – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Ahrensburg: Altgold, Goldschmuck, Münzen und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Goldkurs.",
+        "Goldankauf für Ahrensburg und Großhansdorf: Altgold, Goldketten, Münzen und Zahngold kostenlos einsenden – bezahlt nach aktuellem Tageskurs.",
       heroText:
         "Von Gartenholz bis Wulfsdorf: Verkaufen Sie Ihr Gold aus Ahrensburg per Post – sorgfältig geprüft und fair nach Tageskurs bezahlt.",
       intro: {
@@ -351,7 +351,7 @@ export const SCHLESWIG_HOLSTEIN: State = {
       name: "Wedel",
       metaTitle: "Goldankauf Wedel – Altgold & Goldschmuck verkaufen",
       metaDescription:
-        "Goldankauf für Wedel: Schmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Tageskurs bewertet.",
+        "Gold verkaufen in Wedel, Schulau und Spitzerdorf: Goldschmuck, Münzen und Barren versichert per Versand einschicken – fair nach aktuellem Goldkurs.",
       heroText:
         "Ob aus Schulau, Spitzerdorf oder der Innenstadt: Senden Sie Ihr Gold aus Wedel versichert ein und erhalten Sie ein transparentes Angebot.",
       intro: {
@@ -382,7 +382,7 @@ export const SCHLESWIG_HOLSTEIN: State = {
       name: "Geesthacht",
       metaTitle: "Goldankauf Geesthacht – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Geesthacht: Altgold, Schmuck, Münzen, Barren und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Börsenkurs.",
+        "Goldankauf für Geesthacht, Düneberg und Tesperhude: Altgold, Ringe und Zahngold kostenlos per Post verkaufen – bewertet nach aktuellem Börsenkurs.",
       heroText:
         "Von Düneberg bis Tesperhude: Verkaufen Sie Altgold, Schmuck und Münzen aus Geesthacht bequem per Post – fair bewertet nach Tageskurs.",
       intro: {
@@ -413,7 +413,7 @@ export const SCHLESWIG_HOLSTEIN: State = {
       name: "Bad Segeberg",
       metaTitle: "Goldankauf Bad Segeberg – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Bad Segeberg: Goldschmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Tageskurs bewertet.",
+        "Gold verkaufen in Bad Segeberg und Wahlstedt: Schmuck, Münzen und Zahngold versichert einsenden – nach Gewicht und Feingehalt zum Tageskurs bezahlt.",
       heroText:
         "Ob aus der Innenstadt, Christiansfelde oder Klein Niendorf: Senden Sie Ihr Gold aus Bad Segeberg versichert ein und erhalten Sie ein transparentes Angebot.",
       intro: {
@@ -444,7 +444,7 @@ export const SCHLESWIG_HOLSTEIN: State = {
       name: "Eckernförde",
       metaTitle: "Goldankauf Eckernförde – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Eckernförde: Altgold, Goldschmuck, Münzen und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Goldkurs.",
+        "Goldankauf für Eckernförde und Borby: Altgold, Goldschmuck, Münzen und Zahngold kostenlos per Versand einschicken – fair nach Goldkurs bezahlt.",
       heroText:
         "Von der Altstadt bis Borby: Verkaufen Sie Ihr Gold aus Eckernförde per Post – sorgfältig geprüft und fair nach Tageskurs bezahlt.",
       intro: {

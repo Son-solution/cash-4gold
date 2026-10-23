@@ -10,7 +10,7 @@ export const THUERINGEN: State = {
       name: "Erfurt",
       metaTitle: "Goldankauf Erfurt – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Erfurt: Altgold, Schmuck, Münzen, Barren und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Börsenkurs.",
+        "Gold verkaufen in Erfurt, Altstadt und Brühlervorstadt: Altgold, Schmuck, Münzen und Barren versichert per Post einsenden – nach Börsenkurs bezahlt.",
       heroText:
         "Von der Altstadt bis Daberstedt: Verkaufen Sie Altgold, Schmuck, Münzen und Zahngold aus Erfurt bequem per Post – bewertet nach Gewicht, Feingehalt und Tageskurs.",
       intro: {
@@ -41,7 +41,7 @@ export const THUERINGEN: State = {
       name: "Jena",
       metaTitle: "Goldankauf Jena – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Jena: Goldschmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Tageskurs bewertet.",
+        "Goldankauf für Jena, Wenigenjena und Jena-Ost: Goldschmuck, Münzen und Zahngold kostenlos per Versand verkaufen – transparent nach Tageskurs bewertet.",
       heroText:
         "Ob aus Lobeda, Winzerla oder Wenigenjena: Senden Sie Ihr Gold aus Jena versichert ein und erhalten Sie ein transparentes Angebot nach Börsenkurs.",
       intro: {
@@ -72,7 +72,7 @@ export const THUERINGEN: State = {
       name: "Gera",
       metaTitle: "Goldankauf Gera – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Gera: Altgold, Goldschmuck, Münzen und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Goldkurs.",
+        "Gold verkaufen in Gera, Untermhaus und Debschwitz: Altgold, Ringe, Ketten und Zahngold versichert einschicken – Auszahlung nach aktuellem Goldkurs.",
       heroText:
         "Von Untermhaus bis Lusan: Verkaufen Sie Ihr Gold aus Gera per Post – sorgfältig geprüft und fair nach Tageskurs bezahlt.",
       intro: {
@@ -103,7 +103,7 @@ export const THUERINGEN: State = {
       name: "Weimar",
       metaTitle: "Goldankauf Weimar – Altgold & Goldschmuck verkaufen",
       metaDescription:
-        "Goldankauf für Weimar: Schmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Börsenkurs bewertet.",
+        "Goldankauf für Weimar und die Westvorstadt: Schmuck, Münzen, Barren und Zahngold kostenlos einsenden – fair nach aktuellem Börsenkurs bezahlt.",
       heroText:
         "Ob aus der Altstadt, der Westvorstadt oder Schöndorf: Senden Sie Ihr Gold aus Weimar versichert ein und erhalten Sie ein transparentes Angebot.",
       intro: {
@@ -134,7 +134,7 @@ export const THUERINGEN: State = {
       name: "Gotha",
       metaTitle: "Goldankauf Gotha – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Gotha: Altgold, Schmuck, Münzen, Barren und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Börsenkurs.",
+        "Gold verkaufen in Gotha und Siebleben: Altgold, Goldschmuck und Münzen versichert per Post einsenden – nach Gewicht und Tageskurs bewertet.",
       heroText:
         "Von der Innenstadt bis Siebleben: Verkaufen Sie Altgold, Schmuck und Münzen aus Gotha bequem per Post – fair bewertet nach Tageskurs.",
       intro: {
@@ -165,7 +165,7 @@ export const THUERINGEN: State = {
       name: "Eisenach",
       metaTitle: "Goldankauf Eisenach – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Eisenach: Goldschmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Tageskurs bewertet.",
+        "Goldankauf für Eisenach und Stockhausen: Altgold, Ringe, Münzen und Zahngold kostenlos per Versand verkaufen – bezahlt nach aktuellem Goldkurs.",
       heroText:
         "Ob aus der Innenstadt, der Südstadt oder Stockhausen: Senden Sie Ihr Gold aus Eisenach versichert ein und erhalten Sie ein transparentes Angebot nach Börsenkurs.",
       intro: {
@@ -196,7 +196,7 @@ export const THUERINGEN: State = {
       name: "Nordhausen",
       metaTitle: "Goldankauf Nordhausen – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Nordhausen: Altgold, Goldschmuck, Münzen und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Goldkurs.",
+        "Gold verkaufen in Nordhausen, Salza und am Südharz: Schmuck, Münzen und Zahngold versichert einsenden – transparent nach aktuellem Börsenkurs.",
       heroText:
         "Von der Innenstadt bis Salza: Verkaufen Sie Ihr Gold aus Nordhausen per Post – sorgfältig geprüft und fair nach Tageskurs bezahlt.",
       intro: {
@@ -258,7 +258,7 @@ export const THUERINGEN: State = {
       name: "Suhl",
       metaTitle: "Goldankauf Suhl – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Suhl: Altgold, Schmuck, Münzen, Barren und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Börsenkurs.",
+        "Goldankauf für Suhl, Zella-Mehlis und den Thüringer Wald: Altgold, Goldketten und Zahngold kostenlos per Post verkaufen – fair nach Tageskurs.",
       heroText:
         "Von Suhl-Mitte bis Goldlauter: Verkaufen Sie Altgold, Schmuck und Münzen aus Suhl bequem per Post – fair bewertet nach Tageskurs.",
       intro: {
@@ -289,7 +289,7 @@ export const THUERINGEN: State = {
       name: "Arnstadt",
       metaTitle: "Goldankauf Arnstadt – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Arnstadt: Goldschmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Tageskurs bewertet.",
+        "Gold verkaufen in Arnstadt und Rudisleben: Goldschmuck, Münzen, Barren und Zahngold versichert per Versand einsenden – nach Goldkurs bezahlt.",
       heroText:
         "Ob aus der Innenstadt, Rudisleben oder Angelhausen-Oberndorf: Senden Sie Ihr Gold aus Arnstadt versichert ein und erhalten Sie ein transparentes Angebot.",
       intro: {
@@ -320,7 +320,7 @@ export const THUERINGEN: State = {
       name: "Ilmenau",
       metaTitle: "Goldankauf Ilmenau – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Ilmenau: Altgold, Goldschmuck, Münzen und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Goldkurs.",
+        "Goldankauf für Ilmenau, Manebach und Unterpörlitz: Altgold, Ringe und Münzen kostenlos einschicken und zum aktuellen Börsenkurs verkaufen.",
       heroText:
         "Von der Innenstadt bis Manebach: Verkaufen Sie Ihr Gold aus Ilmenau per Post – sorgfältig geprüft und fair nach Tageskurs bezahlt.",
       intro: {
@@ -351,7 +351,7 @@ export const THUERINGEN: State = {
       name: "Rudolstadt",
       metaTitle: "Goldankauf Rudolstadt – Altgold & Goldschmuck verkaufen",
       metaDescription:
-        "Goldankauf für Rudolstadt: Schmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Tageskurs bewertet.",
+        "Gold verkaufen in Rudolstadt, Volkstedt und Schwarza: Schmuck, Münzen und Zahngold versichert per Post einsenden – fair nach aktuellem Tageskurs.",
       heroText:
         "Ob aus Volkstedt, Schwarza oder der Innenstadt: Senden Sie Ihr Gold aus Rudolstadt versichert ein und erhalten Sie ein transparentes Angebot nach Börsenkurs.",
       intro: {
@@ -382,7 +382,7 @@ export const THUERINGEN: State = {
       name: "Sondershausen",
       metaTitle: "Goldankauf Sondershausen – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Sondershausen: Altgold, Schmuck, Münzen, Barren und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Börsenkurs.",
+        "Goldankauf für Sondershausen und das Kyffhäuserland: Altgold, Goldschmuck und Zahngold kostenlos per Versand verkaufen – bezahlt nach Goldkurs.",
       heroText:
         "Von der Innenstadt bis Jecha: Verkaufen Sie Altgold, Schmuck und Münzen aus Sondershausen bequem per Post – fair bewertet nach Tageskurs.",
       intro: {
@@ -413,7 +413,7 @@ export const THUERINGEN: State = {
       name: "Meiningen",
       metaTitle: "Goldankauf Meiningen – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Meiningen: Goldschmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Börsenkurs bewertet.",
+        "Gold verkaufen in Meiningen und an der Werra: Ringe, Ketten, Münzen und Zahngold versichert einschicken – transparent nach aktuellem Börsenkurs.",
       heroText:
         "Ob aus der Innenstadt, Dreißigacker oder Welkershausen: Senden Sie Ihr Gold aus Meiningen versichert ein und erhalten Sie ein transparentes Angebot.",
       intro: {
@@ -444,7 +444,7 @@ export const THUERINGEN: State = {
       name: "Apolda",
       metaTitle: "Goldankauf Apolda – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Apolda: Altgold, Goldschmuck, Münzen und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Goldkurs.",
+        "Goldankauf für Apolda und das Weimarer Land: Altgold, Schmuck, Münzen und Zahngold kostenlos per Post einsenden – fair nach aktuellem Tageskurs.",
       heroText:
         "Von der Innenstadt bis Oberroßla: Verkaufen Sie Ihr Gold aus Apolda per Post – sorgfältig geprüft und fair nach Tageskurs bezahlt.",
       intro: {

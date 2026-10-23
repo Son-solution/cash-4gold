@@ -12,7 +12,7 @@ export const HAMBURG: State = {
       name: "Hamburg-Mitte",
       metaTitle: "Goldankauf Hamburg-Mitte – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Hamburg-Mitte: Altgold, Schmuck, Münzen, Barren und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Börsenkurs.",
+        "Gold verkaufen in Hamburg-Mitte, HafenCity und St. Georg: Altgold, Schmuck, Münzen und Barren versichert einsenden – bezahlt nach aktuellem Börsenkurs.",
       heroText:
         "Von der HafenCity bis St. Georg: Verkaufen Sie Altgold, Schmuck, Münzen und Zahngold aus Hamburg-Mitte bequem per Post – bewertet nach Gewicht, Feingehalt und Tageskurs.",
       intro: {
@@ -260,7 +260,7 @@ export const HAMBURG: State = {
       name: "Barmbek",
       metaTitle: "Goldankauf Barmbek – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Gold verkaufen in Hamburg-Barmbek: Altgold, Schmuck, Münzen und Zahngold kostenlos und versichert einsenden – fair nach Börsenkurs bewertet.",
+        "Goldankauf für Barmbek-Nord, Barmbek-Süd und Dulsberg: Goldschmuck, Münzen und Zahngold kostenlos per Post einsenden und zum Tageskurs verkaufen.",
       heroText:
         "Aus Barmbek-Nord, Barmbek-Süd oder Dulsberg: Verkaufen Sie Ihr Gold per Post – mit kostenlosem Versandpaket und klarer Bewertung.",
       intro: {
@@ -446,7 +446,7 @@ export const HAMBURG: State = {
       name: "Billstedt",
       metaTitle: "Goldankauf Billstedt – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Hamburg-Billstedt: Altgold, Schmuck, Münzen und Zahngold kostenlos und versichert einsenden – fair nach Börsenkurs bewertet.",
+        "Gold verkaufen in Billstedt und Mümmelmannsberg: Altgold, Ketten, Ringe und Zahngold versichert per Versand einschicken – fair nach Börsenkurs bewertet.",
       heroText:
         "Von Mümmelmannsberg bis Öjendorf: Verkaufen Sie Ihr Gold aus Billstedt per Post – kostenlos, versichert und nach Tageskurs bewertet.",
       intro: {

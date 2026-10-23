@@ -10,7 +10,7 @@ export const NIEDERSACHSEN: State = {
       name: "Hannover",
       metaTitle: "Goldankauf Hannover – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Hannover: Altgold, Schmuck, Münzen, Barren und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Börsenkurs.",
+        "Gold verkaufen in Hannover, von der List bis Linden: Altgold, Schmuck, Münzen und Barren versichert einsenden – bezahlt nach aktuellem Börsenkurs.",
       heroText:
         "Von der List bis Linden: Verkaufen Sie Altgold, Schmuck, Münzen und Zahngold aus Hannover bequem per Post – bewertet nach Gewicht, Feingehalt und Tageskurs.",
       intro: {
@@ -41,7 +41,7 @@ export const NIEDERSACHSEN: State = {
       name: "Braunschweig",
       metaTitle: "Goldankauf Braunschweig – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Braunschweig: Goldschmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Tageskurs bewertet.",
+        "Goldankauf für Braunschweig und das Ringgebiet: Goldschmuck, Münzen, Barren und Zahngold kostenlos per Post verkaufen – bewertet nach Tageskurs.",
       heroText:
         "Ob aus dem Östlichen Ringgebiet, der Weststadt oder Querum: Senden Sie Ihr Gold aus Braunschweig versichert ein und erhalten Sie ein transparentes Angebot.",
       intro: {
@@ -72,7 +72,7 @@ export const NIEDERSACHSEN: State = {
       name: "Oldenburg",
       metaTitle: "Goldankauf Oldenburg – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Oldenburg: Altgold, Schmuck, Münzen und Zahngold kostenlos einsenden, präzise prüfen lassen und nach Börsenkurs bezahlt werden.",
+        "Gold verkaufen in Oldenburg, Eversten und Donnerschwee: Altgold, Ringe, Ketten und Zahngold versichert einschicken – Auszahlung nach Goldkurs.",
       heroText:
         "Von Eversten bis Donnerschwee: Verkaufen Sie Ihr Gold aus Oldenburg per Post – nachvollziehbar geprüft und nach Tageskurs abgerechnet.",
       intro: {
@@ -103,7 +103,7 @@ export const NIEDERSACHSEN: State = {
       name: "Osnabrück",
       metaTitle: "Goldankauf Osnabrück – Altgold & Goldschmuck verkaufen",
       metaDescription:
-        "Goldankauf für Osnabrück: Altgold, Ketten, Ringe, Münzen und Zahngold versichert einsenden und nach aktuellem Goldkurs verkaufen.",
+        "Goldankauf für Osnabrück, Westerberg und die Wüste: Schmuck, Münzen und Zahngold kostenlos einsenden – nach Gewicht und Feingehalt fair bezahlt.",
       heroText:
         "Ob aus dem Westerberg, der Wüste oder Schinkel: Schicken Sie Ihr Gold aus Osnabrück kostenlos ein und erhalten Sie ein Angebot nach Tageskurs.",
       intro: {
@@ -134,7 +134,7 @@ export const NIEDERSACHSEN: State = {
       name: "Wolfsburg",
       metaTitle: "Goldankauf Wolfsburg – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Wolfsburg: Goldschmuck, Münzen, Barren und Zahngold kostenlos einsenden – geprüft nach Gewicht und Feingehalt, bezahlt nach Börsenkurs.",
+        "Gold verkaufen in Wolfsburg, Fallersleben und Vorsfelde: Altgold, Goldschmuck und Barren versichert per Versand einsenden – nach Börsenkurs bewertet.",
       heroText:
         "Von Fallersleben bis Vorsfelde: Verkaufen Sie Ihr Gold aus Wolfsburg bequem per Post – mit transparentem Angebot nach Tageskurs.",
       intro: {
@@ -165,7 +165,7 @@ export const NIEDERSACHSEN: State = {
       name: "Göttingen",
       metaTitle: "Goldankauf Göttingen – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Göttingen: Altgold, Schmuck, Münzen und Zahngold kostenlos per Post einsenden und nach Tageskurs verkaufen – versichert und transparent.",
+        "Goldankauf für Göttingen, Weende und Geismar: Altgold, Münzen, Schmuck und Zahngold kostenlos per Post verkaufen – transparent nach Tageskurs.",
       heroText:
         "Ob aus der Innenstadt, Weende oder Geismar: Senden Sie Ihr Gold aus Göttingen versichert ein und erhalten Sie ein faires Angebot.",
       intro: {
@@ -196,7 +196,7 @@ export const NIEDERSACHSEN: State = {
       name: "Hildesheim",
       metaTitle: "Goldankauf Hildesheim – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Hildesheim: Goldschmuck, Münzen, Barren und Zahngold versichert einsenden – sorgfältig geprüft und nach Börsenkurs bezahlt.",
+        "Gold verkaufen in Hildesheim und am Moritzberg: Ringe, Ketten, Münzen und Zahngold versichert einschicken – fair nach aktuellem Goldkurs bezahlt.",
       heroText:
         "Vom Moritzberg bis Ochtersum: Verkaufen Sie Ihr Gold aus Hildesheim per Post – geprüft nach Gewicht, Feingehalt und Tageskurs.",
       intro: {
@@ -227,7 +227,7 @@ export const NIEDERSACHSEN: State = {
       name: "Salzgitter",
       metaTitle: "Goldankauf Salzgitter – Altgold & Goldschmuck verkaufen",
       metaDescription:
-        "Goldankauf für Salzgitter: Altgold, Schmuck, Münzen und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Tageskurs.",
+        "Goldankauf für Salzgitter-Bad, Lebenstedt und Thiede: Altgold, Schmuck und Zahngold kostenlos einsenden und zum aktuellen Börsenkurs verkaufen.",
       heroText:
         "Ob aus Lebenstedt, Salzgitter-Bad oder Thiede: Senden Sie Ihr Gold kostenlos ein und erhalten Sie ein Angebot nach Börsenkurs.",
       intro: {
@@ -258,7 +258,7 @@ export const NIEDERSACHSEN: State = {
       name: "Wilhelmshaven",
       metaTitle: "Goldankauf Wilhelmshaven – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Wilhelmshaven: Goldschmuck, Münzen und Zahngold kostenlos per Post einsenden – nach Gewicht und Feingehalt geprüft, nach Börsenkurs bezahlt.",
+        "Gold verkaufen in Wilhelmshaven, Heppens und Bant: Goldschmuck, Münzen und Zahngold versichert per Post einsenden – bewertet nach Tageskurs.",
       heroText:
         "Vom Südstrand bis Voslapp: Verkaufen Sie Ihr Gold aus Wilhelmshaven bequem per Post – mit transparentem Angebot nach Tageskurs.",
       intro: {
@@ -289,7 +289,7 @@ export const NIEDERSACHSEN: State = {
       name: "Delmenhorst",
       metaTitle: "Goldankauf Delmenhorst – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Delmenhorst: Altgold, Goldschmuck, Münzen und Zahngold per Post verkaufen – kostenlos, versichert und nach Tageskurs bewertet.",
+        "Goldankauf für Delmenhorst und Deichhorst: Altgold, Ringe, Münzen und Zahngold kostenlos per Versand verkaufen – fair nach aktuellem Goldkurs bezahlt.",
       heroText:
         "Ob aus Deichhorst, Düsternort oder der Stadtmitte: Senden Sie Ihr Gold aus Delmenhorst versichert ein und erhalten Sie ein transparentes Angebot.",
       intro: {
@@ -320,7 +320,7 @@ export const NIEDERSACHSEN: State = {
       name: "Lüneburg",
       metaTitle: "Goldankauf Lüneburg – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Lüneburg: Altgold, Schmuck, Münzen und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Goldkurs.",
+        "Gold verkaufen in Lüneburg und Adendorf: Schmuck, Münzen, Barren und Zahngold versichert einschicken – transparent nach Gewicht und Börsenkurs bewertet.",
       heroText:
         "Von der Altstadt bis Kaltenmoor: Verkaufen Sie Ihr Gold aus Lüneburg per Post – nachvollziehbar geprüft und fair nach Tageskurs bezahlt.",
       intro: {
@@ -351,7 +351,7 @@ export const NIEDERSACHSEN: State = {
       name: "Celle",
       metaTitle: "Goldankauf Celle – Altgold & Goldschmuck verkaufen",
       metaDescription:
-        "Goldankauf für Celle: Altgold, Ketten, Ringe, Münzen und Zahngold versichert einsenden und nach aktuellem Goldkurs verkaufen.",
+        "Goldankauf für Celle, Altencelle und Westercelle: Altgold, Goldketten und Zahngold kostenlos per Post einsenden – Auszahlung nach Tageskurs.",
       heroText:
         "Ob aus der Altstadt, Altencelle oder Westercelle: Schicken Sie Ihr Gold aus Celle kostenlos ein und erhalten Sie ein Angebot nach Tageskurs.",
       intro: {
@@ -382,7 +382,7 @@ export const NIEDERSACHSEN: State = {
       name: "Hameln",
       metaTitle: "Goldankauf Hameln – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Hameln: Goldschmuck, Münzen, Barren und Zahngold kostenlos per Post einsenden – bewertet nach Börsenkurs.",
+        "Gold verkaufen in Hameln und im Weserbergland: Goldschmuck, Münzen und Zahngold versichert per Versand einsenden – fair nach Börsenkurs bezahlt.",
       heroText:
         "Aus Hameln und dem Weserbergland: Verkaufen Sie Ihr Gold bequem per Post – geprüft nach Gewicht und Feingehalt, bezahlt nach Tageskurs.",
       intro: {
@@ -413,7 +413,7 @@ export const NIEDERSACHSEN: State = {
       name: "Stade",
       metaTitle: "Goldankauf Stade – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Stade: Altgold, Schmuck, Münzen und Zahngold kostenlos und versichert einsenden – nach aktuellem Tageskurs bewertet.",
+        "Goldankauf für Stade, Buxtehude und das Alte Land: Altgold, Schmuck und Münzen kostenlos einschicken und nach aktuellem Goldkurs verkaufen.",
       heroText:
         "Ob aus der Altstadt, Campe oder Bützfleth: Senden Sie Ihr Gold aus Stade kostenlos ein und erhalten Sie ein faires Angebot.",
       intro: {
@@ -444,7 +444,7 @@ export const NIEDERSACHSEN: State = {
       name: "Cuxhaven",
       metaTitle: "Goldankauf Cuxhaven – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Cuxhaven: Goldschmuck, Münzen und Zahngold versichert per Post einsenden – fair geprüft und nach Börsenkurs bezahlt.",
+        "Gold verkaufen in Cuxhaven, Duhnen und Döse: Altgold, Ringe, Münzen und Zahngold versichert per Post einsenden – bewertet nach Tageskurs.",
       heroText:
         "Von Döse bis Sahlenburg: Verkaufen Sie Ihr Gold aus Cuxhaven per Post – mit transparentem Angebot nach Tageskurs.",
       intro: {

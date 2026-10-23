@@ -10,7 +10,7 @@ export const SACHSEN_ANHALT: State = {
       name: "Magdeburg",
       metaTitle: "Goldankauf Magdeburg – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Magdeburg: Altgold, Schmuck, Münzen, Barren und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Börsenkurs.",
+        "Gold verkaufen in Magdeburg, Stadtfeld und Buckau: Altgold, Schmuck, Münzen und Barren versichert per Post einsenden – bezahlt nach Börsenkurs.",
       heroText:
         "Von Stadtfeld bis Buckau: Verkaufen Sie Altgold, Schmuck, Münzen und Zahngold aus Magdeburg bequem per Post – bewertet nach Gewicht, Feingehalt und Tageskurs.",
       intro: {
@@ -41,7 +41,7 @@ export const SACHSEN_ANHALT: State = {
       name: "Halle (Saale)",
       metaTitle: "Goldankauf Halle (Saale) – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Halle (Saale): Goldschmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Tageskurs bewertet.",
+        "Goldankauf für Halle (Saale), Paulusviertel und Kröllwitz: Goldschmuck, Münzen und Zahngold kostenlos per Versand verkaufen – fair nach Tageskurs.",
       heroText:
         "Ob aus dem Paulusviertel, Giebichenstein oder Kröllwitz: Senden Sie Ihr Gold aus Halle versichert ein und erhalten Sie ein transparentes Angebot nach Börsenkurs.",
       intro: {
@@ -72,7 +72,7 @@ export const SACHSEN_ANHALT: State = {
       name: "Dessau-Roßlau",
       metaTitle: "Goldankauf Dessau-Roßlau – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Dessau-Roßlau: Altgold, Goldschmuck, Münzen und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Goldkurs.",
+        "Gold verkaufen in Dessau-Roßlau, Ziebigk und Törten: Altgold, Ringe, Ketten und Zahngold versichert einschicken – Auszahlung nach aktuellem Goldkurs.",
       heroText:
         "Von Ziebigk bis Roßlau: Verkaufen Sie Ihr Gold aus Dessau per Post – sorgfältig geprüft und fair nach Tageskurs bezahlt.",
       intro: {
@@ -103,7 +103,7 @@ export const SACHSEN_ANHALT: State = {
       name: "Lutherstadt Wittenberg",
       metaTitle: "Goldankauf Wittenberg – Altgold & Goldschmuck verkaufen",
       metaDescription:
-        "Goldankauf für Lutherstadt Wittenberg: Schmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Börsenkurs bewertet.",
+        "Goldankauf für die Lutherstadt Wittenberg und Piesteritz: Schmuck, Münzen und Zahngold kostenlos einsenden – transparent nach Börsenkurs bewertet.",
       heroText:
         "Ob aus der Altstadt, Piesteritz oder Friedrichstadt: Senden Sie Ihr Gold aus Wittenberg versichert ein und erhalten Sie ein transparentes Angebot.",
       intro: {
@@ -134,7 +134,7 @@ export const SACHSEN_ANHALT: State = {
       name: "Halberstadt",
       metaTitle: "Goldankauf Halberstadt – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Halberstadt: Altgold, Schmuck, Münzen, Barren und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Börsenkurs.",
+        "Gold verkaufen in Halberstadt und im Harzvorland: Altgold, Goldschmuck, Münzen und Barren versichert per Post einsenden – fair nach Tageskurs.",
       heroText:
         "Von der Innenstadt bis Wehrstedt: Verkaufen Sie Altgold, Schmuck und Münzen aus Halberstadt bequem per Post – fair bewertet nach Tageskurs.",
       intro: {
@@ -165,7 +165,7 @@ export const SACHSEN_ANHALT: State = {
       name: "Stendal",
       metaTitle: "Goldankauf Stendal – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Stendal: Goldschmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Tageskurs bewertet.",
+        "Goldankauf für Stendal, Tangermünde und die Altmark: Altgold, Ringe und Zahngold kostenlos per Versand verkaufen – bezahlt nach aktuellem Goldkurs.",
       heroText:
         "Ob aus der Altstadt, Stadtsee oder Röxe: Senden Sie Ihr Gold aus Stendal versichert ein und erhalten Sie ein transparentes Angebot nach Börsenkurs.",
       intro: {
@@ -196,7 +196,7 @@ export const SACHSEN_ANHALT: State = {
       name: "Merseburg",
       metaTitle: "Goldankauf Merseburg – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Merseburg: Altgold, Goldschmuck, Münzen und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Goldkurs.",
+        "Gold verkaufen in Merseburg, Leuna und Bad Dürrenberg: Schmuck, Münzen und Zahngold versichert einsenden – nach Gewicht und Börsenkurs bewertet.",
       heroText:
         "Von der Innenstadt bis Meuschau: Verkaufen Sie Ihr Gold aus Merseburg per Post – sorgfältig geprüft und fair nach Tageskurs bezahlt.",
       intro: {
@@ -227,7 +227,7 @@ export const SACHSEN_ANHALT: State = {
       name: "Weißenfels",
       metaTitle: "Goldankauf Weißenfels – Altgold & Goldschmuck verkaufen",
       metaDescription:
-        "Goldankauf für Weißenfels: Schmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Tageskurs bewertet.",
+        "Goldankauf für Weißenfels und das Saaletal: Altgold, Goldketten, Münzen und Zahngold kostenlos per Post verkaufen – Auszahlung nach Tageskurs.",
       heroText:
         "Ob aus der Altstadt, der Neustadt oder Langendorf: Senden Sie Ihr Gold aus Weißenfels versichert ein und erhalten Sie ein transparentes Angebot.",
       intro: {
@@ -258,7 +258,7 @@ export const SACHSEN_ANHALT: State = {
       name: "Zeitz",
       metaTitle: "Goldankauf Zeitz – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Zeitz: Altgold, Schmuck, Münzen, Barren und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Börsenkurs.",
+        "Gold verkaufen in Zeitz und im Burgenlandkreis: Goldschmuck, Münzen und Zahngold versichert per Versand einschicken – fair nach Goldkurs bezahlt.",
       heroText:
         "Von der Innenstadt bis Rasberg: Verkaufen Sie Altgold, Schmuck und Münzen aus Zeitz bequem per Post – fair bewertet nach Tageskurs.",
       intro: {
@@ -351,7 +351,7 @@ export const SACHSEN_ANHALT: State = {
       name: "Sangerhausen",
       metaTitle: "Goldankauf Sangerhausen – Altgold & Goldschmuck verkaufen",
       metaDescription:
-        "Goldankauf für Sangerhausen: Schmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Tageskurs bewertet.",
+        "Goldankauf für Sangerhausen und das Mansfelder Land: Altgold, Schmuck und Münzen kostenlos einsenden – transparent nach aktuellem Börsenkurs.",
       heroText:
         "Ob aus der Innenstadt, Oberröblingen oder Wippra: Senden Sie Ihr Gold aus Sangerhausen versichert ein und erhalten Sie ein transparentes Angebot.",
       intro: {
@@ -382,7 +382,7 @@ export const SACHSEN_ANHALT: State = {
       name: "Quedlinburg",
       metaTitle: "Goldankauf Quedlinburg – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Quedlinburg: Altgold, Schmuck, Münzen, Barren und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Börsenkurs.",
+        "Gold verkaufen in Quedlinburg, Thale und am Harz: Ringe, Ketten, Münzen und Zahngold versichert per Post einsenden – bewertet nach Tageskurs.",
       heroText:
         "Von der Altstadt bis Gernrode: Verkaufen Sie Altgold, Schmuck und Münzen aus Quedlinburg bequem per Post – fair bewertet nach Tageskurs.",
       intro: {
@@ -413,7 +413,7 @@ export const SACHSEN_ANHALT: State = {
       name: "Aschersleben",
       metaTitle: "Goldankauf Aschersleben – Altgold & Schmuck verkaufen",
       metaDescription:
-        "Goldankauf für Aschersleben: Goldschmuck, Münzen, Barren und Zahngold per Versand verkaufen – kostenlos, versichert und nach Tageskurs bewertet.",
+        "Goldankauf für Aschersleben und das Seeland: Altgold, Goldschmuck und Zahngold kostenlos per Versand verkaufen – fair nach aktuellem Goldkurs.",
       heroText:
         "Ob aus der Innenstadt, Mehringen oder Winningen: Senden Sie Ihr Gold aus Aschersleben versichert ein und erhalten Sie ein transparentes Angebot nach Börsenkurs.",
       intro: {
@@ -444,7 +444,7 @@ export const SACHSEN_ANHALT: State = {
       name: "Bitterfeld-Wolfen",
       metaTitle: "Goldankauf Bitterfeld-Wolfen – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Bitterfeld-Wolfen: Altgold, Goldschmuck, Münzen und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Goldkurs.",
+        "Gold verkaufen in Bitterfeld-Wolfen und Greppin: Schmuck, Münzen, Barren und Zahngold versichert einsenden – bezahlt nach aktuellem Börsenkurs.",
       heroText:
         "Von Bitterfeld bis Wolfen: Verkaufen Sie Ihr Gold per Post – sorgfältig geprüft und fair nach Tageskurs bezahlt.",
       intro: {

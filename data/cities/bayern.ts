@@ -10,7 +10,7 @@ export const BAYERN: State = {
       name: "München",
       metaTitle: "Goldankauf München – Gold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in München: Altgold, Schmuck, Münzen, Barren und Zahngold kostenlos und versichert einsenden – bewertet nach aktuellem Börsenkurs.",
+        "Von Schwabing bis Pasing: Altgold, Schmuck, Münzen und Barren aus München versichert per Post verkaufen – transparent bewertet nach aktuellem Börsenkurs.",
       heroText:
         "Von Schwabing bis Giesing: Verkaufen Sie Altgold, Schmuck, Münzen und Zahngold aus München bequem per Post – bewertet nach Gewicht, Feingehalt und aktuellem Börsenkurs.",
       intro: {
@@ -72,7 +72,7 @@ export const BAYERN: State = {
       name: "Augsburg",
       metaTitle: "Goldankauf Augsburg – Gold verkaufen per Versand",
       metaDescription:
-        "Gold verkaufen in Augsburg: Schmuck, Münzen, Barren und Zahngold kostenlos einsenden, nach Börsenkurs bewerten lassen und schnell ausgezahlt bekommen.",
+        "Goldankauf für Augsburg, Lechhausen und Haunstetten: Altgold, Ketten, Münzen und Zahngold kostenlos einsenden und zum Tageskurs verkaufen.",
       heroText:
         "Von Lechhausen bis Haunstetten: Verkaufen Sie Ihr Gold aus Augsburg per Post – mit kostenlosem Versandpaket, transparenter Bewertung und zügiger Überweisung.",
       intro: {
@@ -134,7 +134,7 @@ export const BAYERN: State = {
       name: "Ingolstadt",
       metaTitle: "Goldankauf Ingolstadt – Altgold verkaufen zum Tageskurs",
       metaDescription:
-        "Gold verkaufen in Ingolstadt: Altgold, Schmuck, Münzen und Zahngold kostenlos einsenden und nach aktuellem Börsenkurs transparent bewerten lassen.",
+        "Gold verkaufen in Ingolstadt und an der Donau: Schmuck, Münzen und Zahngold versichert per Versand einschicken – Auszahlung nach aktuellem Goldkurs.",
       heroText:
         "Von der Altstadt bis Friedrichshofen: Verkaufen Sie Ihr Gold aus Ingolstadt per Post – kostenlos, versichert und transparent nach Tageskurs bewertet.",
       intro: {
