@@ -1,12 +1,21 @@
 import "server-only";
 import { Redis } from "@upstash/redis";
 import { unstable_cache } from "next/cache";
-import type { ChartPeriod, MarketSnapshot, MetalId, PriceHistory, PurchasePriceTable, SpotKey, SpotQuote } from "@/types/metal";
+import type {
+  ChartPeriod,
+  MarketSnapshot,
+  MetalId,
+  PriceHistory,
+  PurchasePrice,
+  PurchasePriceTable,
+  SpotKey,
+  SpotQuote,
+} from "@/types/metal";
 import { PRICE_REFRESH_MS } from "./config";
 import type { MarketDataProvider } from "./types";
 
 /**
- * Purchase prices scraped from gold-sohn.de and stored in Upstash Redis.
+ * Purchase prices fetched from the gold-sohn.de price API and stored in Upstash Redis.
  *
  *   Vercel Cron → /api/cron/prices → refreshStoredPrices()   scrapes and writes Redis
  *   page + /api/prices → goldSohnProvider.getSnapshot()      only reads Redis (cached 60 s)
@@ -15,7 +24,8 @@ import type { MarketDataProvider } from "./types";
  * the stored scrapes, so charts fill in over time after the first deployment.
  */
 
-const SOURCE_URL = "https://gold-sohn.de/preise/";
+/** JSON behind the price tables. The HTML page at /preise/ only shows frozen demo values. */
+const SOURCE_URL = "https://www.gold-sohn.de/api/preise/";
 const SOURCE_LABEL = "gold-sohn.de";
 const USER_AGENT =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36";
@@ -26,19 +36,14 @@ const KEYS = {
   current: `${PREFIX}:prices`,
   intraday: `${PREFIX}:history:intraday`,
   daily: `${PREFIX}:history:daily`,
+  close: `${PREFIX}:close`,
 };
 /** ~25 h of 5-minute scrapes. */
 const INTRADAY_MAX = 300;
 const DAY_MS = 86_400_000;
 
-/** Source name → own metal id. "zahngold" must come before "gold" ("Zahngold" contains "gold"). */
-const METAL_BY_NAME: [string, MetalId][] = [
-  ["zahngold", "zahngold"],
-  ["gold", "gold"],
-  ["silber", "silber"],
-  ["platin", "platin"],
-  ["palladium", "palladium"],
-];
+/** The source uses the same metal ids as we do. */
+const METALS: MetalId[] = ["gold", "zahngold", "silber", "platin", "palladium"];
 
 /** The 999 price of these metals is used as the quote for ticker, charts and daily change. */
 const SPOT_METALS: Record<SpotKey, MetalId> = { XAU: "gold", XAG: "silber", XPT: "platin", XPD: "palladium" };
@@ -47,9 +52,22 @@ const SPOT_KEYS = Object.keys(SPOT_METALS) as SpotKey[];
 export interface StoredPrices {
   /** ISO time of the scrape. */
   scrapedAt: string;
-  /** ISO time of the source's own "Letzte Aktualisierung", if found. */
+  /** ISO time of the source's own "asOf", if present. */
   sourceUpdatedAt: string | null;
   metals: PurchasePriceTable;
+}
+
+/** Last stored prices of an earlier (Berlin) day – the reference for the daily change. */
+interface ClosePrices {
+  date: string;
+  metals: PurchasePriceTable;
+}
+
+/** Shape of https://www.gold-sohn.de/api/preise/ (only the fields we read). */
+interface SourceResponse {
+  source?: string;
+  asOf?: string;
+  tables?: { metal?: string; rows?: { purity?: string; eurPerGram?: number }[] }[];
 }
 
 type SpotPrices = Record<SpotKey, number>;
@@ -81,62 +99,51 @@ function redis(): Redis {
 // Scraper
 // ---------------------------------------------------------------------------
 
-async function fetchSourceHtml(): Promise<string> {
+async function fetchSource(): Promise<SourceResponse> {
   const res = await fetch(SOURCE_URL, {
     cache: "no-store",
-    headers: { "User-Agent": USER_AGENT, Accept: "text/html", "Accept-Language": "de-DE,de;q=0.9" },
+    headers: { "User-Agent": USER_AGENT, Accept: "application/json" },
     signal: AbortSignal.timeout(15_000),
   });
   if (!res.ok) throw new Error(`gold-sohn.de: HTTP ${res.status}`);
-  return res.text();
-}
-
-function cellText(html: string): string {
-  return html
-    .replace(/<[^>]*>/g, " ")
-    .replace(/&nbsp;|&#160;/g, " ")
-    .replace(/&euro;/g, "€")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-/** "1.234,56 €" → 1234.56 (NaN if there is no number, e.g. "—"). */
-function parseGermanNumber(text: string): number {
-  return Number.parseFloat(text.replace(/[^\d,.-]/g, "").replace(/\./g, "").replace(",", "."));
+  return res.json();
 }
 
 /**
- * Reads every table row "585er Gold | 68,75 € | ▲ 0,03%" into metals.gold["585"].
- * Throws if a 999 price of gold, silver, platinum or palladium is missing, so a changed
- * page layout never overwrites good prices with incomplete data.
+ * Reads {"tables":[{"metal":"gold","rows":[{"purity":"585","eurPerGram":66.66}]}]} into metals.gold["585"].
+ * Throws if the response is not live or a 999 price of gold, silver, platinum or palladium is
+ * missing, so a changed API or a fallback response never overwrites good prices.
+ * The source publishes no change; changePercent is set from the previous day's close.
  */
-export function parsePrices(html: string): Omit<StoredPrices, "scrapedAt"> {
+export function parsePrices(data: SourceResponse): Omit<StoredPrices, "scrapedAt"> {
+  if (data.source !== "live") throw new Error(`gold-sohn.de: source is "${data.source}", not "live"`);
   const metals: PurchasePriceTable = {};
 
-  for (const row of html.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/gi)) {
-    const cells = [...row[1].matchAll(/<td[^>]*>([\s\S]*?)<\/td>/gi)].map((m) => cellText(m[1]));
-    if (cells.length < 3) continue;
-
-    const label = cells[0].match(/^(\d{3})er\s+(.+)$/i);
-    if (!label) continue;
-    const name = label[2].toLowerCase();
-    const metal = METAL_BY_NAME.find(([key]) => name.includes(key))?.[1];
-    const price = parseGermanNumber(cells[1]);
-    if (!metal || !Number.isFinite(price) || price <= 0) continue;
-
-    const change = parseGermanNumber(cells[2]);
-    (metals[metal] ??= {})[label[1]] = {
-      price,
-      changePercent: Number.isFinite(change) ? (cells[2].includes("▼") ? -Math.abs(change) : change) : 0,
-    };
+  for (const table of data.tables ?? []) {
+    const metal = METALS.find((id) => id === table.metal);
+    if (!metal) continue;
+    for (const { purity, eurPerGram } of table.rows ?? []) {
+      if (!purity || !/^\d{3}$/.test(purity) || typeof eurPerGram !== "number" || !(eurPerGram > 0)) continue;
+      (metals[metal] ??= {})[purity] = { price: eurPerGram, changePercent: 0 };
+    }
   }
 
   for (const metal of Object.values(SPOT_METALS)) {
-    if (!metals[metal]?.["999"]) throw new Error(`gold-sohn.de: no 999 price for ${metal} – did the page layout change?`);
+    if (!metals[metal]?.["999"]) throw new Error(`gold-sohn.de: no 999 price for ${metal} – did the API change?`);
   }
 
-  const stamp = html.match(/Letzte Aktualisierung:\s*(\d{4}-\d{2}-\d{2})\s+(\d{2}:\d{2}(?::\d{2})?)/);
-  return { metals, sourceUpdatedAt: stamp ? berlinToIso(stamp[1], stamp[2]) : null };
+  const asOf = Date.parse(data.asOf ?? "");
+  return { metals, sourceUpdatedAt: Number.isNaN(asOf) ? null : new Date(asOf).toISOString() };
+}
+
+/** Sets every purity's changePercent relative to the same purity in `close` (0 without a reference). */
+function applyDailyChange(metals: PurchasePriceTable, close: PurchasePriceTable | undefined): void {
+  for (const [metal, purities] of Object.entries(metals) as [MetalId, Record<string, PurchasePrice>][]) {
+    for (const [id, entry] of Object.entries(purities)) {
+      const ref = close?.[metal]?.[id]?.price;
+      entry.changePercent = ref ? Math.round((entry.price / ref - 1) * 10_000) / 100 : 0;
+    }
+  }
 }
 
 function spotPrices(metals: PurchasePriceTable): SpotPrices {
@@ -150,18 +157,34 @@ function spotPrices(metals: PurchasePriceTable): SpotPrices {
  * Throws (and writes nothing) if fetching or parsing fails.
  */
 export async function refreshStoredPrices(): Promise<StoredPrices> {
-  const parsed = parsePrices(await fetchSourceHtml());
+  const [data, [previous, storedClose]] = await Promise.all([
+    fetchSource(),
+    redis()
+      .pipeline()
+      .get<StoredPrices>(KEYS.current)
+      .get<ClosePrices>(KEYS.close)
+      .exec<[StoredPrices | null, ClosePrices | null]>(),
+  ]);
+  const parsed = parsePrices(data);
   const stored: StoredPrices = { scrapedAt: new Date().toISOString(), ...parsed };
-  const point: IntradayPoint = { t: parsed.sourceUpdatedAt ?? stored.scrapedAt, p: spotPrices(parsed.metals) };
+  const today = berlinDate(Date.parse(parsed.sourceUpdatedAt ?? stored.scrapedAt));
 
-  await redis()
+  // The last scrape of an earlier day becomes the close the daily change is measured against.
+  const previousDate = previous ? berlinDate(Date.parse(previous.sourceUpdatedAt ?? previous.scrapedAt)) : null;
+  const newClose: ClosePrices | null =
+    previous && previousDate && previousDate < today ? { date: previousDate, metals: previous.metals } : null;
+  applyDailyChange(stored.metals, (newClose ?? storedClose)?.metals);
+
+  const point: IntradayPoint = { t: parsed.sourceUpdatedAt ?? stored.scrapedAt, p: spotPrices(parsed.metals) };
+  const pipeline = redis()
     .pipeline()
     .set(KEYS.current, stored)
     .lpush(KEYS.intraday, point)
     .ltrim(KEYS.intraday, 0, INTRADAY_MAX - 1)
     // Last price of each (Berlin) day, used for the 1W … 5J charts.
-    .hset(KEYS.daily, { [berlinDate(Date.parse(point.t))]: point.p })
-    .exec();
+    .hset(KEYS.daily, { [today]: point.p });
+  if (newClose) pipeline.set(KEYS.close, newClose);
+  await pipeline.exec();
 
   return stored;
 }
@@ -281,23 +304,8 @@ export const goldSohnProvider: MarketDataProvider = {
 // ---------------------------------------------------------------------------
 
 const berlinDateFormat = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Berlin" });
-const berlinOffsetFormat = new Intl.DateTimeFormat("en-US", { timeZone: "Europe/Berlin", timeZoneName: "longOffset" });
 
 /** UTC timestamp → "YYYY-MM-DD" in Berlin. */
 function berlinDate(ms: number): string {
   return berlinDateFormat.format(ms);
-}
-
-/** Berlin's UTC offset in ms at the given instant (+1 h in winter, +2 h in summer). */
-function berlinOffsetMs(ms: number): number {
-  const name = berlinOffsetFormat.formatToParts(ms).find((p) => p.type === "timeZoneName")?.value ?? "";
-  const m = name.match(/GMT([+-])(\d{2}):(\d{2})/);
-  return m ? (m[1] === "-" ? -1 : 1) * (Number(m[2]) * 60 + Number(m[3])) * 60_000 : 0;
-}
-
-/** "2026-10-07" + "11:09:20" (Berlin local time) → ISO string in UTC. */
-function berlinToIso(date: string, time: string): string | null {
-  const asUtc = Date.parse(`${date}T${time.length === 5 ? `${time}:00` : time}Z`);
-  if (Number.isNaN(asUtc)) return null;
-  return new Date(asUtc - berlinOffsetMs(asUtc - berlinOffsetMs(asUtc))).toISOString();
 }
